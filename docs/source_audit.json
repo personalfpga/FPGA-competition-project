@@ -1,0 +1,12 @@
+{
+  "source": "user_supplied_archives",
+  "nested_rar_format": "RAR5",
+  "file_entries": 626,
+  "directory_entries": 71,
+  "same_path_size_and_crc_matches": 620,
+  "historical_alias_size_and_crc_matches": 5,
+  "remaining_difference": "older .gitignore; public ignore rules regenerated",
+  "scope": "Header metadata comparison, not decompression or cryptographic proof of file equality. Protected payloads were not opened during this comparison.",
+  "no_additional_core_payload_identified_in_metadata": true,
+  "external_teammate_records": "User has now supplied llm_log.zip with two Claude sessions; incorporated after redaction. Other account-level completeness is not established."
+}

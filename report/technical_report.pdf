@@ -1,0 +1,1290 @@
+%PDF-1.4
+%“Œ‹ž ReportLab Generated PDF document (opensource)
+1 0 obj
+<<
+/F1 2 0 R /F2 3 0 R /F3 5 0 R
+>>
+endobj
+2 0 obj
+<<
+/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
+>>
+endobj
+3 0 obj
+<<
+/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
+>>
+endobj
+4 0 obj
+<<
+/Contents 12 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 11 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+5 0 obj
+<<
+/BaseFont /Courier /Encoding /WinAnsiEncoding /Name /F3 /Subtype /Type1 /Type /Font
+>>
+endobj
+6 0 obj
+<<
+/Contents 13 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 11 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+7 0 obj
+<<
+/Contents 14 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 11 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+8 0 obj
+<<
+/Contents 15 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 11 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+9 0 obj
+<<
+/PageMode /UseNone /Pages 11 0 R /Type /Catalog
+>>
+endobj
+10 0 obj
+<<
+/Author (Project contributors) /CreationDate (D:20261029211236+08'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20261029211236+08'00') /Producer (ReportLab PDF Library - \(opensource\)) 
+  /Subject (Reproduction, archived evidence and limitations) /Title (Z15 ECG adaptive clock gating - public technical report) /Trapped /False
+>>
+endobj
+11 0 obj
+<<
+/Count 4 /Kids [ 4 0 R 6 0 R 7 0 R 8 0 R ] /Type /Pages
+>>
+endobj
+12 0 obj
+<<
+/Length 6575
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+.827451 .87451 .909804 RG
+n 47 802.8898 m 548.2756 802.8898 l S
+.321569 .392157 .466667 rg
+BT /F1 8 Tf 9.6 TL ET
+BT 1 0 0 1 47 812.8898 Tm (Z15 ECG  /  PUBLIC TECHNICAL REPORT) Tj T* ET
+BT 1 0 0 1 497.1316 812.8898 Tm (Vivado 2025.2) Tj T* ET
+n 47 36 m 548.2756 36 l S
+BT 1 0 0 1 47 23 Tm (Compiled from included source and archived evidence.) Tj T* ET
+BT 1 0 0 1 543.8276 23 Tm (1) Tj T* ET
+q
+1 0 0 1 53 719.8898 cm
+q
+.082353 .156863 .235294 rg
+BT 1 0 0 1 0 33 Tm /F2 25 Tf 29 TL (Adaptive ECG processing and clock) Tj T* (gating) Tj T* ET
+Q
+Q
+q
+1 0 0 1 53 672.8898 cm
+q
+.321569 .392157 .466667 rg
+BT 1 0 0 1 0 21 Tm /F1 11 Tf 16 TL (Portable digital demonstration for the Z15 / Zynq-7000 XC7Z015. This English technical report) Tj T* (accompanies the public source package.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 53 637.8898 cm
+q
+.027451 .34902 .521569 rg
+BT 1 0 0 1 0 4 Tm /F2 13 Tf 17 TL (Design objective) Tj T* ET
+Q
+Q
+q
+1 0 0 1 53 588.2898 cm
+q
+.082353 .156863 .235294 rg
+BT 1 0 0 1 0 32.6 Tm /F1 10 Tf 14.2 TL (The design stops processing-clock activity during intervals without useful input events, while retaining an) Tj T* (always-on wake path. Baseline, adaptive-FSM-only and fully gated configurations separate the cost and) Tj T* (behavior of the controller from the clock gate.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 53 490.2898 cm
+.933333 .960784 .980392 rg
+.72549 .819608 .886275 RG
+n
+5 18 m
+150 18 l
+152.764 18 155 20.236 155 23 c
+155 75 l
+155 77.764 152.764 80 150 80 c
+5 80 l
+2.236 80 0 77.764 0 75 c
+0 23 l
+0 20.236 2.236 18 5 18 c
+h
+B*
+.027451 .34902 .521569 rg
+BT /F2 11 Tf 13.2 TL ET
+BT 1 0 0 1 10 59 Tm (Input) Tj T* ET
+.082353 .156863 .235294 rg
+BT /F1 7.7 Tf 9.24 TL ET
+BT 1 0 0 1 10 39 Tm (pattern / ROM / ADC) Tj T* ET
+.027451 .34902 .521569 RG
+n 156 49 m 167 49 l S
+n 164 52 m 167 49 l S
+n 164 46 m 167 49 l S
+.933333 .960784 .980392 rg
+.72549 .819608 .886275 RG
+n
+173 18 m
+318 18 l
+320.764 18 323 20.236 323 23 c
+323 75 l
+323 77.764 320.764 80 318 80 c
+173 80 l
+170.236 80 168 77.764 168 75 c
+168 23 l
+168 20.236 170.236 18 173 18 c
+h
+B*
+.027451 .34902 .521569 rg
+BT /F2 11 Tf 13.2 TL ET
+BT 1 0 0 1 178 59 Tm (Processing) Tj T* ET
+.082353 .156863 .235294 rg
+BT /F1 7.7 Tf 9.24 TL ET
+BT 1 0 0 1 178 39 Tm (filter + R-peak) Tj T* ET
+.027451 .34902 .521569 RG
+n 324 49 m 335 49 l S
+n 332 52 m 335 49 l S
+n 332 46 m 335 49 l S
+.933333 .960784 .980392 rg
+.72549 .819608 .886275 RG
+n
+341 18 m
+486 18 l
+488.764 18 491 20.236 491 23 c
+491 75 l
+491 77.764 488.764 80 486 80 c
+341 80 l
+338.236 80 336 77.764 336 75 c
+336 23 l
+336 20.236 338.236 18 341 18 c
+h
+B*
+.027451 .34902 .521569 rg
+BT /F2 11 Tf 13.2 TL ET
+BT 1 0 0 1 346 59 Tm (Control) Tj T* ET
+.082353 .156863 .235294 rg
+BT /F1 7.7 Tf 9.24 TL ET
+BT 1 0 0 1 346 39 Tm (SLEEP / NORMAL / ALERT) Tj T* ET
+BT /F1 8 Tf 9.6 TL ET
+.321569 .392157 .466667 rg
+BT 1 0 0 1 0 3 Tm (Always-on input/control observes activity; BUFGCE stops the processing clock during sleep.) Tj T* ET
+Q
+q
+1 0 0 1 53 460.2898 cm
+q
+.027451 .34902 .521569 rg
+BT 1 0 0 1 0 4 Tm /F2 13 Tf 17 TL (Hardware and configuration) Tj T* ET
+Q
+Q
+q
+1 0 0 1 53 330.7898 cm
+q
+.933333 .960784 .980392 rg
+n 0 122.5 500 -24.5 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 7 104 cm
+q
+.321569 .392157 .466667 rg
+BT 1 0 0 1 0 3.2 Tm /F1 8.3 Tf 11.5 TL (Item) Tj T* ET
+Q
+Q
+q
+1 0 0 1 145 104 cm
+q
+.321569 .392157 .466667 rg
+BT 1 0 0 1 0 3.2 Tm /F1 8.3 Tf 11.5 TL (Included configuration) Tj T* ET
+Q
+Q
+q
+1 0 0 1 7 79.5 cm
+q
+.321569 .392157 .466667 rg
+BT 1 0 0 1 0 3.2 Tm /F1 8.3 Tf 11.5 TL (Target and release clock) Tj T* ET
+Q
+Q
+q
+1 0 0 1 145 79.5 cm
+q
+.321569 .392157 .466667 rg
+BT 1 0 0 1 0 3.2 Tm /F1 8.3 Tf 11.5 TL (xc7z015clg485-2; 50 MHz; 20 ns constraint) Tj T* ET
+Q
+Q
+q
+1 0 0 1 7 55 cm
+q
+.321569 .392157 .466667 rg
+BT 1 0 0 1 0 3.2 Tm /F1 8.3 Tf 11.5 TL (Tool and HDL) Tj T* ET
+Q
+Q
+q
+1 0 0 1 145 55 cm
+q
+.321569 .392157 .466667 rg
+BT 1 0 0 1 0 3.2 Tm /F1 8.3 Tf 11.5 TL (Vivado 2025.2; Verilog/SystemVerilog; XADC IP for ADC variant) Tj T* ET
+Q
+Q
+q
+1 0 0 1 7 30.5 cm
+q
+.321569 .392157 .466667 rg
+BT 1 0 0 1 0 3.2 Tm /F1 8.3 Tf 11.5 TL (Core outputs) Tj T* ET
+Q
+Q
+q
+1 0 0 1 145 30.5 cm
+q
+.321569 .392157 .466667 rg
+BT 1 0 0 1 0 3.2 Tm /F1 8.3 Tf 11.5 TL (state, heart_rate, r_peak; physical release top exposes LED) Tj T* ET
+Q
+Q
+q
+1 0 0 1 7 6 cm
+q
+.321569 .392157 .466667 rg
+BT 1 0 0 1 0 3.2 Tm /F1 8.3 Tf 11.5 TL (ADC status) Tj T* ET
+Q
+Q
+q
+1 0 0 1 145 6 cm
+q
+.321569 .392157 .466667 rg
+BT 1 0 0 1 0 3.2 Tm /F1 8.3 Tf 11.5 TL (Q8 gain 5120 is a candidate setting, not calibrated analog gain) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.027451 .34902 .521569 RG
+.8 w
+n 0 98 m 500 98 l S
+.847059 .890196 .921569 RG
+.3 w
+n 0 73.5 m 500 73.5 l S
+n 0 49 m 500 49 l S
+n 0 24.5 m 500 24.5 l S
+n 0 0 m 500 0 l S
+Q
+Q
+Q
+q
+1 0 0 1 53 322.7898 cm
+Q
+q
+1 0 0 1 53 292.7898 cm
+q
+.027451 .34902 .521569 rg
+BT 1 0 0 1 0 4 Tm /F2 13 Tf 17 TL (Replay modes) Tj T* ET
+Q
+Q
+q
+1 0 0 1 53 187.7898 cm
+q
+.933333 .960784 .980392 rg
+n 0 98 500 -24.5 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 7 79.5 cm
+q
+.321569 .392157 .466667 rg
+BT 1 0 0 1 0 3.2 Tm /F1 8.3 Tf 11.5 TL (Mode) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62 79.5 cm
+q
+.321569 .392157 .466667 rg
+BT 1 0 0 1 0 3.2 Tm /F1 8.3 Tf 11.5 TL (Input and matching release image) Tj T* ET
+Q
+Q
+q
+1 0 0 1 7 55 cm
+q
+.321569 .392157 .466667 rg
+BT 1 0 0 1 0 3.2 Tm /F1 8.3 Tf 11.5 TL (7) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62 55 cm
+q
+.321569 .392157 .466667 rg
+BT 1 0 0 1 0 3.2 Tm /F1 8.3 Tf 11.5 TL (Internal synthetic activity sequence; mode7_release.bit \(identical to gated_release.bit\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 7 30.5 cm
+q
+.321569 .392157 .466667 rg
+BT 1 0 0 1 0 3.2 Tm /F1 8.3 Tf 11.5 TL (8) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62 30.5 cm
+q
+.321569 .392157 .466667 rg
+BT 1 0 0 1 0 3.2 Tm /F1 8.3 Tf 11.5 TL (MIT-BIH record 119, MLII, 30-second replay; mode8_release.bit) Tj T* ET
+Q
+Q
+q
+1 0 0 1 7 6 cm
+q
+.321569 .392157 .466667 rg
+BT 1 0 0 1 0 3.2 Tm /F1 8.3 Tf 11.5 TL (9) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62 6 cm
+q
+.321569 .392157 .466667 rg
+BT 1 0 0 1 0 3.2 Tm /F1 8.3 Tf 11.5 TL (MIT-BIH record 100, MLII, 30-second replay; mode9_release.bit) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.027451 .34902 .521569 RG
+.8 w
+n 0 73.5 m 500 73.5 l S
+.847059 .890196 .921569 RG
+.3 w
+n 0 49 m 500 49 l S
+n 0 24.5 m 500 24.5 l S
+n 0 0 m 500 0 l S
+Q
+Q
+Q
+q
+1 0 0 1 53 179.7898 cm
+Q
+q
+1 0 0 1 53 156.7898 cm
+q
+.321569 .392157 .466667 rg
+BT 1 0 0 1 0 14.7 Tm /F1 8.3 Tf 11.5 TL (Complete AD8232 acquisition, calibrated analog gain and physical whole-board power measurement remain incomplete. This) Tj T* (package demonstrates digital logic and archived evidence; it is not a clinical device.) Tj T* ET
+Q
+Q
+ 
+endstream
+endobj
+13 0 obj
+<<
+/Length 4287
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+.827451 .87451 .909804 RG
+n 47 802.8898 m 548.2756 802.8898 l S
+.321569 .392157 .466667 rg
+BT /F1 8 Tf 9.6 TL ET
+BT 1 0 0 1 47 812.8898 Tm (Z15 ECG  /  PUBLIC TECHNICAL REPORT) Tj T* ET
+BT 1 0 0 1 497.1316 812.8898 Tm (Vivado 2025.2) Tj T* ET
+n 47 36 m 548.2756 36 l S
+BT 1 0 0 1 47 23 Tm (Compiled from included source and archived evidence.) Tj T* ET
+BT 1 0 0 1 543.8276 23 Tm (2) Tj T* ET
+q
+1 0 0 1 53 748.8898 cm
+q
+.082353 .156863 .235294 rg
+BT 1 0 0 1 0 4 Tm /F2 25 Tf 29 TL (Build and reproduce) Tj T* ET
+Q
+Q
+q
+1 0 0 1 53 701.8898 cm
+q
+.321569 .392157 .466667 rg
+BT 1 0 0 1 0 21 Tm /F1 11 Tf 16 TL (Run commands from the public repository root. All scripts and data are local; the workflow does not) Tj T* (create a remote repository or push files.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 53 666.8898 cm
+q
+.027451 .34902 .521569 rg
+BT 1 0 0 1 0 4 Tm /F2 13 Tf 17 TL (1 Check the package) Tj T* ET
+Q
+Q
+q
+1 0 0 1 53 624.4898 cm
+q
+.933333 .960784 .980392 rg
+n -9 -9 507.2756 53.4 re f*
+Q
+q
+BT 1 0 0 1 0 27.2 Tm 11.8 TL /F3 8.2 Tf .082353 .156863 .235294 rg (python src/scripts/privacy_scan.py) Tj  T* (python src/scripts/check_release.py) Tj  T* (python src/scripts/bit_compare.py) Tj T* ET
+Q
+Q
+q
+1 0 0 1 53 583.0898 cm
+q
+.082353 .156863 .235294 rg
+BT 1 0 0 1 0 18.4 Tm /F1 10 Tf 14.2 TL -0.025627 Tw (The release manifest covers supplied file hashes. Mode 7 and gated release bitstreams must be byte-identical.) Tj T* 0 Tw (Each included bitstream is approximately 3.51 MB, below the requested 50 MB inclusion threshold.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 53 553.0898 cm
+q
+.027451 .34902 .521569 rg
+BT 1 0 0 1 0 4 Tm /F2 13 Tf 17 TL (2 Run the digital regression) Tj T* ET
+Q
+Q
+q
+1 0 0 1 53 534.2898 cm
+q
+.933333 .960784 .980392 rg
+n -9 -9 507.2756 29.8 re f*
+Q
+q
+.082353 .156863 .235294 rg
+BT 1 0 0 1 0 3.6 Tm /F3 8.2 Tf 11.8 TL (python src/scripts/run_tests.py) Tj T* ET
+Q
+Q
+q
+1 0 0 1 53 492.8898 cm
+q
+.082353 .156863 .235294 rg
+BT 1 0 0 1 0 18.4 Tm /F1 10 Tf 14.2 TL (Requires Python 3, numpy, Icarus Verilog and vvp. There are 17 declared regression results. The included) Tj T* -0.133627 Tw (historical logs are evidence from earlier runs. Rechecking those logs is distinct from executing new simulations.) Tj T* 0 Tw ET
+Q
+Q
+q
+1 0 0 1 53 462.8898 cm
+q
+.027451 .34902 .521569 rg
+BT 1 0 0 1 0 4 Tm /F2 13 Tf 17 TL (3 Rebuild release variants) Tj T* ET
+Q
+Q
+q
+1 0 0 1 53 408.6898 cm
+q
+.933333 .960784 .980392 rg
+n -9 -9 507.2756 65.2 re f*
+Q
+q
+BT 1 0 0 1 0 39 Tm 11.8 TL /F3 8.2 Tf .082353 .156863 .235294 rg (vivado -mode batch -source src/scripts/build_all.tcl) Tj  T*  T* (vivado -mode batch -source src/scripts/build_vivado.tcl) Tj  T* (-tclargs gated 5120) Tj T* ET
+Q
+Q
+q
+1 0 0 1 53 353.0898 cm
+q
+.082353 .156863 .235294 rg
+BT 1 0 0 1 0 32.6 Tm /F1 10 Tf 14.2 TL (The second example is one command, wrapped here for readability. Substitute mode8 or mode9 to select the) Tj T* (corresponding ROM input. Release checks require passing setup/hold timing, zero DRC errors and no ILA/VIO) Tj T* (debug cores. Generated Vivado project/cache directories stay outside committed source.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 53 323.0898 cm
+q
+.027451 .34902 .521569 rg
+BT 1 0 0 1 0 4 Tm /F2 13 Tf 17 TL (4 Select a mode and configure the board) Tj T* ET
+Q
+Q
+q
+1 0 0 1 53 273.4898 cm
+q
+.082353 .156863 .235294 rg
+BT 1 0 0 1 0 32.6 Tm /F1 10 Tf 14.2 TL (In Vivado Hardware Manager connect the matching Z15 target and select its mode7_release.bit,) Tj T* (mode8_release.bit or mode9_release.bit from build/bitstreams/. Release mode selection is fixed by the chosen) Tj T* (image. The existing programming helper performs volatile JTAG configuration only:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 53 241.8898 cm
+q
+.933333 .960784 .980392 rg
+n -9 -9 507.2756 41.6 re f*
+Q
+q
+BT 1 0 0 1 0 15.4 Tm 11.8 TL /F3 8.2 Tf .082353 .156863 .235294 rg (vivado -mode batch -source src/scripts/program_board.tcl) Tj  T* (-tclargs mode7) Tj T* ET
+Q
+Q
+q
+1 0 0 1 53 205.8898 cm
+q
+.321569 .392157 .466667 rg
+BT 1 0 0 1 0 14.7 Tm /F1 8.3 Tf 11.5 TL (The separate ecg_activity.bit debug image uses ecg_activity.ltx and VIO mode controls. It is not interchangeable with the release) Tj T* (interface. Its rebuild script and archived validation are included under src/scripts/build_demo.tcl and build/demo_reports/.) Tj T* ET
+Q
+Q
+ 
+endstream
+endobj
+14 0 obj
+<<
+/Length 6341
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+.827451 .87451 .909804 RG
+n 47 802.8898 m 548.2756 802.8898 l S
+.321569 .392157 .466667 rg
+BT /F1 8 Tf 9.6 TL ET
+BT 1 0 0 1 47 812.8898 Tm (Z15 ECG  /  PUBLIC TECHNICAL REPORT) Tj T* ET
+BT 1 0 0 1 497.1316 812.8898 Tm (Vivado 2025.2) Tj T* ET
+n 47 36 m 548.2756 36 l S
+BT 1 0 0 1 47 23 Tm (Compiled from included source and archived evidence.) Tj T* ET
+BT 1 0 0 1 543.8276 23 Tm (3) Tj T* ET
+q
+1 0 0 1 53 748.8898 cm
+q
+.082353 .156863 .235294 rg
+BT 1 0 0 1 0 4 Tm /F2 25 Tf 29 TL (Verification and evidence) Tj T* ET
+Q
+Q
+q
+1 0 0 1 53 701.8898 cm
+q
+.321569 .392157 .466667 rg
+BT 1 0 0 1 0 21 Tm /F1 11 Tf 16 TL (Keep simulation, offline models and physical captures as separate evidence classes. Every) Tj T* (percentage needs its own denominator and interval.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 53 666.8898 cm
+q
+.027451 .34902 .521569 rg
+BT 1 0 0 1 0 4 Tm /F2 13 Tf 17 TL (Regression coverage) Tj T* ET
+Q
+Q
+q
+1 0 0 1 53 617.2898 cm
+q
+.082353 .156863 .235294 rg
+BT 1 0 0 1 0 32.6 Tm /F1 10 Tf 14.2 TL (The archived manifest contains 17 PASS results. Coverage includes ADC conditioning, XADC digital reading,) Tj T* (integrated ADC paths, power variants, legacy adaptive behavior, modes 0..6, modes 8/9 and exact) Tj T* (ROM-to-model peak comparisons.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 53 586.2898 cm
+q
+.321569 .392157 .466667 rg
+BT 1 0 0 1 0 14.7 Tm /F1 8.3 Tf 11.5 TL (Reproduction inputs: sim/ testbenches and src/scripts/run_tests.py. Saved results: build/reports/simulation/results.json. The ROM) Tj T* (tests compare two complete loops and require a fixed pipeline offset rather than matching only an early subset of peaks.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 53 556.2898 cm
+q
+.027451 .34902 .521569 rg
+BT 1 0 0 1 0 4 Tm /F2 13 Tf 17 TL (Fresh native XSim comparison) Tj T* ET
+Q
+Q
+q
+1 0 0 1 53 402.2898 cm
+q
+.933333 .960784 .980392 rg
+n 0 147 500 -24.5 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 7 128.5 cm
+q
+.321569 .392157 .466667 rg
+BT 1 0 0 1 0 3.2 Tm /F1 8.3 Tf 11.5 TL (Setting) Tj T* ET
+Q
+Q
+q
+1 0 0 1 217 128.5 cm
+q
+.321569 .392157 .466667 rg
+BT 1 0 0 1 0 3.2 Tm /F1 8.3 Tf 11.5 TL (Baseline) Tj T* ET
+Q
+Q
+q
+1 0 0 1 362 128.5 cm
+q
+.321569 .392157 .466667 rg
+BT 1 0 0 1 0 3.2 Tm /F1 8.3 Tf 11.5 TL (Gated) Tj T* ET
+Q
+Q
+q
+1 0 0 1 7 104 cm
+q
+.321569 .392157 .466667 rg
+BT 1 0 0 1 0 3.2 Tm /F1 8.3 Tf 11.5 TL (ENABLE_ADAPTIVE / USE_CLK_GATE) Tj T* ET
+Q
+Q
+q
+1 0 0 1 217 104 cm
+q
+.321569 .392157 .466667 rg
+BT 1 0 0 1 0 3.2 Tm /F1 8.3 Tf 11.5 TL (0 / 0) Tj T* ET
+Q
+Q
+q
+1 0 0 1 362 104 cm
+q
+.321569 .392157 .466667 rg
+BT 1 0 0 1 0 3.2 Tm /F1 8.3 Tf 11.5 TL (1 / 1) Tj T* ET
+Q
+Q
+q
+1 0 0 1 7 79.5 cm
+q
+.321569 .392157 .466667 rg
+BT 1 0 0 1 0 3.2 Tm /F1 8.3 Tf 11.5 TL (Input) Tj T* ET
+Q
+Q
+q
+1 0 0 1 217 79.5 cm
+q
+.321569 .392157 .466667 rg
+BT 1 0 0 1 0 3.2 Tm /F1 8.3 Tf 11.5 TL (Internal mode 7) Tj T* ET
+Q
+Q
+q
+1 0 0 1 362 79.5 cm
+q
+.321569 .392157 .466667 rg
+BT 1 0 0 1 0 3.2 Tm /F1 8.3 Tf 11.5 TL (Same internal mode 7) Tj T* ET
+Q
+Q
+q
+1 0 0 1 7 55 cm
+q
+.321569 .392157 .466667 rg
+BT 1 0 0 1 0 3.2 Tm /F1 8.3 Tf 11.5 TL (Steady-cycle clock edges) Tj T* ET
+Q
+Q
+q
+1 0 0 1 217 55 cm
+q
+.321569 .392157 .466667 rg
+BT 1 0 0 1 0 3.2 Tm /F1 8.3 Tf 11.5 TL (2,280,000) Tj T* ET
+Q
+Q
+q
+1 0 0 1 362 55 cm
+q
+.321569 .392157 .466667 rg
+BT 1 0 0 1 0 3.2 Tm /F1 8.3 Tf 11.5 TL (1,850,604) Tj T* ET
+Q
+Q
+q
+1 0 0 1 7 30.5 cm
+q
+.321569 .392157 .466667 rg
+BT 1 0 0 1 0 3.2 Tm /F1 8.3 Tf 11.5 TL (Input mismatches) Tj T* ET
+Q
+Q
+q
+1 0 0 1 217 30.5 cm
+q
+.321569 .392157 .466667 rg
+BT 1 0 0 1 0 3.2 Tm /F1 8.3 Tf 11.5 TL (0 across the paired run) Tj T* ET
+Q
+Q
+q
+1 0 0 1 362 30.5 cm
+q
+.321569 .392157 .466667 rg
+BT 1 0 0 1 0 3.2 Tm /F1 8.3 Tf 11.5 TL (0 across the paired run) Tj T* ET
+Q
+Q
+q
+1 0 0 1 7 6 cm
+q
+.321569 .392157 .466667 rg
+BT 1 0 0 1 0 3.2 Tm /F1 8.3 Tf 11.5 TL (Stable-sleep gated edges) Tj T* ET
+Q
+Q
+q
+1 0 0 1 217 6 cm
+q
+.321569 .392157 .466667 rg
+BT 1 0 0 1 0 3.2 Tm /F1 8.3 Tf 11.5 TL (Clock continues) Tj T* ET
+Q
+Q
+q
+1 0 0 1 362 6 cm
+q
+.321569 .392157 .466667 rg
+BT 1 0 0 1 0 3.2 Tm /F1 8.3 Tf 11.5 TL (0) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.027451 .34902 .521569 RG
+.8 w
+n 0 122.5 m 500 122.5 l S
+.847059 .890196 .921569 RG
+.3 w
+n 0 98 m 500 98 l S
+n 0 73.5 m 500 73.5 l S
+n 0 49 m 500 49 l S
+n 0 24.5 m 500 24.5 l S
+n 0 0 m 500 0 l S
+Q
+Q
+Q
+q
+1 0 0 1 53 394.2898 cm
+Q
+q
+1 0 0 1 53 337.4898 cm
+q
+.082353 .156863 .235294 rg
+BT 1 0 0 1 0 46.8 Tm /F1 10 Tf 14.2 TL (The 22.8-second steady cycle yields 100 * \(1 - 1850604 / 2280000\) = 18.8331579%, rounded to 18.8%. The) Tj T* (comparison testbench uses a 100 kHz functional clock with 1 kHz sampling to keep execution practical. It) Tj T* (includes a zero-delay behavioral BUFGCE model, not routed device timing. Physical release builds use 50) Tj T* (MHz.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 53 317.6898 cm
+q
+.933333 .960784 .980392 rg
+n -9 -9 507.2756 29.8 re f*
+Q
+q
+BT 1 0 0 1 0 3.6 Tm 11.8 TL /F3 8.2 Tf .082353 .156863 .235294 rg (& ./sim/waveform_comparison/run_xsim.ps1) Tj T* ET
+Q
+Q
+q
+1 0 0 1 53 247.8898 cm
+q
+.082353 .156863 .235294 rg
+BT 1 0 0 1 0 46.8 Tm /F1 10 Tf 14.2 TL (Run from a Vivado 2025.2 configured PowerShell environment. Native screenshots and recordings in) Tj T* (report/waveforms/ display the same 18.000000 to 23.943141254463 second interval. Sleep entry is 18.703060) Tj T* (seconds and wake is 22.997060 seconds. Video clips show the saved native waveform display, not a live) Tj T* (physical-board capture.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 53 217.8898 cm
+q
+.027451 .34902 .521569 rg
+BT 1 0 0 1 0 4 Tm /F2 13 Tf 17 TL (Archived physical evidence) Tj T* ET
+Q
+Q
+q
+1 0 0 1 53 154.0898 cm
+q
+.082353 .156863 .235294 rg
+BT 1 0 0 1 0 46.8 Tm /F1 10 Tf 14.2 TL (The XADC summary records 4096 samples with code range 4..3033. A small representative mode 7) Tj T* (activity-counter capture is included under board/counters/. Windows crossing a state transition contain mixed) Tj T* (activity; the state column is sampled at the end. Compute interval reduction from summed counters, not the) Tj T* (mean of window percentages.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 53 123.0898 cm
+q
+.321569 .392157 .466667 rg
+BT 1 0 0 1 0 14.7 Tm /F1 8.3 Tf 11.5 TL (The approximately 18.28% historical board figure, 18.66% offline-model figure and 18.8% RTL figure have different scopes. No new) Tj T* (physical-board measurement was performed during this assembly. See board/readme.md and docs/ad8232_status.md.) Tj T* ET
+Q
+Q
+ 
+endstream
+endobj
+15 0 obj
+<<
+/Length 9754
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+.827451 .87451 .909804 RG
+n 47 802.8898 m 548.2756 802.8898 l S
+.321569 .392157 .466667 rg
+BT /F1 8 Tf 9.6 TL ET
+BT 1 0 0 1 47 812.8898 Tm (Z15 ECG  /  PUBLIC TECHNICAL REPORT) Tj T* ET
+BT 1 0 0 1 497.1316 812.8898 Tm (Vivado 2025.2) Tj T* ET
+n 47 36 m 548.2756 36 l S
+BT 1 0 0 1 47 23 Tm (Compiled from included source and archived evidence.) Tj T* ET
+BT 1 0 0 1 543.8276 23 Tm (4) Tj T* ET
+q
+1 0 0 1 53 748.8898 cm
+q
+.082353 .156863 .235294 rg
+BT 1 0 0 1 0 4 Tm /F2 25 Tf 29 TL (Resources, power and scope) Tj T* ET
+Q
+Q
+q
+1 0 0 1 53 701.8898 cm
+q
+.321569 .392157 .466667 rg
+BT 1 0 0 1 0 21 Tm /F1 11 Tf 16 TL (Source numerical values are archived implementation reports. A modeled endpoint difference is not) Tj T* (a measured board-power saving.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 53 666.8898 cm
+q
+.027451 .34902 .521569 rg
+BT 1 0 0 1 0 4 Tm /F2 13 Tf 17 TL (Archived release implementation values) Tj T* ET
+Q
+Q
+q
+1 0 0 1 53 488.3898 cm
+q
+.933333 .960784 .980392 rg
+n 0 171.5 500 -24.5 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 7 153 cm
+q
+.321569 .392157 .466667 rg
+BT 1 0 0 1 0 3.2 Tm /F1 8.3 Tf 11.5 TL (Variant) Tj T* ET
+Q
+Q
+q
+1 0 0 1 105 153 cm
+q
+.321569 .392157 .466667 rg
+BT 1 0 0 1 0 3.2 Tm /F1 8.3 Tf 11.5 TL (LUT) Tj T* ET
+Q
+Q
+q
+1 0 0 1 160 153 cm
+q
+.321569 .392157 .466667 rg
+BT 1 0 0 1 0 3.2 Tm /F1 8.3 Tf 11.5 TL (FF) Tj T* ET
+Q
+Q
+q
+1 0 0 1 215 153 cm
+q
+.321569 .392157 .466667 rg
+BT 1 0 0 1 0 3.2 Tm /F1 8.3 Tf 11.5 TL (BRAM) Tj T* ET
+Q
+Q
+q
+1 0 0 1 280 153 cm
+q
+.321569 .392157 .466667 rg
+BT 1 0 0 1 0 3.2 Tm /F1 8.3 Tf 11.5 TL (DSP) Tj T* ET
+Q
+Q
+q
+1 0 0 1 330 153 cm
+q
+.321569 .392157 .466667 rg
+BT 1 0 0 1 0 3.2 Tm /F1 8.3 Tf 11.5 TL (Dyn. W) Tj T* ET
+Q
+Q
+q
+1 0 0 1 415 153 cm
+q
+.321569 .392157 .466667 rg
+BT 1 0 0 1 0 3.2 Tm /F1 8.3 Tf 11.5 TL (Total W) Tj T* ET
+Q
+Q
+q
+1 0 0 1 7 128.5 cm
+q
+.321569 .392157 .466667 rg
+BT 1 0 0 1 0 3.2 Tm /F1 8.3 Tf 11.5 TL (baseline) Tj T* ET
+Q
+Q
+q
+1 0 0 1 105 128.5 cm
+q
+.321569 .392157 .466667 rg
+BT 1 0 0 1 0 3.2 Tm /F1 8.3 Tf 11.5 TL (311) Tj T* ET
+Q
+Q
+q
+1 0 0 1 160 128.5 cm
+q
+.321569 .392157 .466667 rg
+BT 1 0 0 1 0 3.2 Tm /F1 8.3 Tf 11.5 TL (334) Tj T* ET
+Q
+Q
+q
+1 0 0 1 215 128.5 cm
+q
+.321569 .392157 .466667 rg
+BT 1 0 0 1 0 3.2 Tm /F1 8.3 Tf 11.5 TL (0.0) Tj T* ET
+Q
+Q
+q
+1 0 0 1 280 128.5 cm
+q
+.321569 .392157 .466667 rg
+BT 1 0 0 1 0 3.2 Tm /F1 8.3 Tf 11.5 TL (0.0) Tj T* ET
+Q
+Q
+q
+1 0 0 1 330 128.5 cm
+q
+.321569 .392157 .466667 rg
+BT 1 0 0 1 0 3.2 Tm /F1 8.3 Tf 11.5 TL (0.002) Tj T* ET
+Q
+Q
+q
+1 0 0 1 415 128.5 cm
+q
+.321569 .392157 .466667 rg
+BT 1 0 0 1 0 3.2 Tm /F1 8.3 Tf 11.5 TL (0.104) Tj T* ET
+Q
+Q
+q
+1 0 0 1 7 104 cm
+q
+.321569 .392157 .466667 rg
+BT 1 0 0 1 0 3.2 Tm /F1 8.3 Tf 11.5 TL (fsm_only) Tj T* ET
+Q
+Q
+q
+1 0 0 1 105 104 cm
+q
+.321569 .392157 .466667 rg
+BT 1 0 0 1 0 3.2 Tm /F1 8.3 Tf 11.5 TL (387) Tj T* ET
+Q
+Q
+q
+1 0 0 1 160 104 cm
+q
+.321569 .392157 .466667 rg
+BT 1 0 0 1 0 3.2 Tm /F1 8.3 Tf 11.5 TL (363) Tj T* ET
+Q
+Q
+q
+1 0 0 1 215 104 cm
+q
+.321569 .392157 .466667 rg
+BT 1 0 0 1 0 3.2 Tm /F1 8.3 Tf 11.5 TL (0.0) Tj T* ET
+Q
+Q
+q
+1 0 0 1 280 104 cm
+q
+.321569 .392157 .466667 rg
+BT 1 0 0 1 0 3.2 Tm /F1 8.3 Tf 11.5 TL (0.0) Tj T* ET
+Q
+Q
+q
+1 0 0 1 330 104 cm
+q
+.321569 .392157 .466667 rg
+BT 1 0 0 1 0 3.2 Tm /F1 8.3 Tf 11.5 TL (0.002) Tj T* ET
+Q
+Q
+q
+1 0 0 1 415 104 cm
+q
+.321569 .392157 .466667 rg
+BT 1 0 0 1 0 3.2 Tm /F1 8.3 Tf 11.5 TL (0.105) Tj T* ET
+Q
+Q
+q
+1 0 0 1 7 79.5 cm
+q
+.321569 .392157 .466667 rg
+BT 1 0 0 1 0 3.2 Tm /F1 8.3 Tf 11.5 TL (gated) Tj T* ET
+Q
+Q
+q
+1 0 0 1 105 79.5 cm
+q
+.321569 .392157 .466667 rg
+BT 1 0 0 1 0 3.2 Tm /F1 8.3 Tf 11.5 TL (389) Tj T* ET
+Q
+Q
+q
+1 0 0 1 160 79.5 cm
+q
+.321569 .392157 .466667 rg
+BT 1 0 0 1 0 3.2 Tm /F1 8.3 Tf 11.5 TL (364) Tj T* ET
+Q
+Q
+q
+1 0 0 1 215 79.5 cm
+q
+.321569 .392157 .466667 rg
+BT 1 0 0 1 0 3.2 Tm /F1 8.3 Tf 11.5 TL (0.0) Tj T* ET
+Q
+Q
+q
+1 0 0 1 280 79.5 cm
+q
+.321569 .392157 .466667 rg
+BT 1 0 0 1 0 3.2 Tm /F1 8.3 Tf 11.5 TL (0.0) Tj T* ET
+Q
+Q
+q
+1 0 0 1 330 79.5 cm
+q
+.321569 .392157 .466667 rg
+BT 1 0 0 1 0 3.2 Tm /F1 8.3 Tf 11.5 TL (0.003) Tj T* ET
+Q
+Q
+q
+1 0 0 1 415 79.5 cm
+q
+.321569 .392157 .466667 rg
+BT 1 0 0 1 0 3.2 Tm /F1 8.3 Tf 11.5 TL (0.105) Tj T* ET
+Q
+Q
+q
+1 0 0 1 7 55 cm
+q
+.321569 .392157 .466667 rg
+BT 1 0 0 1 0 3.2 Tm /F1 8.3 Tf 11.5 TL (adc) Tj T* ET
+Q
+Q
+q
+1 0 0 1 105 55 cm
+q
+.321569 .392157 .466667 rg
+BT 1 0 0 1 0 3.2 Tm /F1 8.3 Tf 11.5 TL (653) Tj T* ET
+Q
+Q
+q
+1 0 0 1 160 55 cm
+q
+.321569 .392157 .466667 rg
+BT 1 0 0 1 0 3.2 Tm /F1 8.3 Tf 11.5 TL (526) Tj T* ET
+Q
+Q
+q
+1 0 0 1 215 55 cm
+q
+.321569 .392157 .466667 rg
+BT 1 0 0 1 0 3.2 Tm /F1 8.3 Tf 11.5 TL (0.0) Tj T* ET
+Q
+Q
+q
+1 0 0 1 280 55 cm
+q
+.321569 .392157 .466667 rg
+BT 1 0 0 1 0 3.2 Tm /F1 8.3 Tf 11.5 TL (2.0) Tj T* ET
+Q
+Q
+q
+1 0 0 1 330 55 cm
+q
+.321569 .392157 .466667 rg
+BT 1 0 0 1 0 3.2 Tm /F1 8.3 Tf 11.5 TL (0.006) Tj T* ET
+Q
+Q
+q
+1 0 0 1 415 55 cm
+q
+.321569 .392157 .466667 rg
+BT 1 0 0 1 0 3.2 Tm /F1 8.3 Tf 11.5 TL (0.108) Tj T* ET
+Q
+Q
+q
+1 0 0 1 7 30.5 cm
+q
+.321569 .392157 .466667 rg
+BT 1 0 0 1 0 3.2 Tm /F1 8.3 Tf 11.5 TL (mode8) Tj T* ET
+Q
+Q
+q
+1 0 0 1 105 30.5 cm
+q
+.321569 .392157 .466667 rg
+BT 1 0 0 1 0 3.2 Tm /F1 8.3 Tf 11.5 TL (334) Tj T* ET
+Q
+Q
+q
+1 0 0 1 160 30.5 cm
+q
+.321569 .392157 .466667 rg
+BT 1 0 0 1 0 3.2 Tm /F1 8.3 Tf 11.5 TL (327) Tj T* ET
+Q
+Q
+q
+1 0 0 1 215 30.5 cm
+q
+.321569 .392157 .466667 rg
+BT 1 0 0 1 0 3.2 Tm /F1 8.3 Tf 11.5 TL (24.0) Tj T* ET
+Q
+Q
+q
+1 0 0 1 280 30.5 cm
+q
+.321569 .392157 .466667 rg
+BT 1 0 0 1 0 3.2 Tm /F1 8.3 Tf 11.5 TL (0.0) Tj T* ET
+Q
+Q
+q
+1 0 0 1 330 30.5 cm
+q
+.321569 .392157 .466667 rg
+BT 1 0 0 1 0 3.2 Tm /F1 8.3 Tf 11.5 TL (0.004) Tj T* ET
+Q
+Q
+q
+1 0 0 1 415 30.5 cm
+q
+.321569 .392157 .466667 rg
+BT 1 0 0 1 0 3.2 Tm /F1 8.3 Tf 11.5 TL (0.108) Tj T* ET
+Q
+Q
+q
+1 0 0 1 7 6 cm
+q
+.321569 .392157 .466667 rg
+BT 1 0 0 1 0 3.2 Tm /F1 8.3 Tf 11.5 TL (mode9) Tj T* ET
+Q
+Q
+q
+1 0 0 1 105 6 cm
+q
+.321569 .392157 .466667 rg
+BT 1 0 0 1 0 3.2 Tm /F1 8.3 Tf 11.5 TL (335) Tj T* ET
+Q
+Q
+q
+1 0 0 1 160 6 cm
+q
+.321569 .392157 .466667 rg
+BT 1 0 0 1 0 3.2 Tm /F1 8.3 Tf 11.5 TL (326) Tj T* ET
+Q
+Q
+q
+1 0 0 1 215 6 cm
+q
+.321569 .392157 .466667 rg
+BT 1 0 0 1 0 3.2 Tm /F1 8.3 Tf 11.5 TL (24.0) Tj T* ET
+Q
+Q
+q
+1 0 0 1 280 6 cm
+q
+.321569 .392157 .466667 rg
+BT 1 0 0 1 0 3.2 Tm /F1 8.3 Tf 11.5 TL (0.0) Tj T* ET
+Q
+Q
+q
+1 0 0 1 330 6 cm
+q
+.321569 .392157 .466667 rg
+BT 1 0 0 1 0 3.2 Tm /F1 8.3 Tf 11.5 TL (0.018) Tj T* ET
+Q
+Q
+q
+1 0 0 1 415 6 cm
+q
+.321569 .392157 .466667 rg
+BT 1 0 0 1 0 3.2 Tm /F1 8.3 Tf 11.5 TL (0.122) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.027451 .34902 .521569 RG
+.8 w
+n 0 147 m 500 147 l S
+.847059 .890196 .921569 RG
+.3 w
+n 0 122.5 m 500 122.5 l S
+n 0 98 m 500 98 l S
+n 0 73.5 m 500 73.5 l S
+n 0 49 m 500 49 l S
+n 0 24.5 m 500 24.5 l S
+n 0 0 m 500 0 l S
+Q
+Q
+Q
+q
+1 0 0 1 53 480.3898 cm
+Q
+q
+1 0 0 1 53 445.8898 cm
+q
+.321569 .392157 .466667 rg
+BT 1 0 0 1 0 26.2 Tm /F1 8.3 Tf 11.5 TL (Baseline/FSM-only/gated comparisons use the same mode 7 chain. ROM and ADC variants add different hardware. The displayed) Tj T* (common-default vectorless power values do not themselves establish a savings claim. Recalculate these values with) Tj T* (src/scripts/summarize_reports.py from build/reports/.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 53 415.8898 cm
+q
+.027451 .34902 .521569 rg
+BT 1 0 0 1 0 4 Tm /F2 13 Tf 17 TL (Power claim boundary) Tj T* ET
+Q
+Q
+q
+1 0 0 1 53 337.8898 cm
+q
+.082353 .156863 .235294 rg
+BT 1 0 0 1 0 61 Tm /F1 10 Tf 14.2 TL (The approximately 1.36 mW result is a controlled dynamic-power endpoint estimate from routed conditional) Tj T* (vectorless CE=0/1 cases. There is no SAIF-driven full-workload measurement and no current-sensor reading.) Tj T* (Confidence is low. Fixed-temperature/fixed-I/O release cases and their source reports are included under) Tj T* (build/demo_reports/release_power/ and power_comparison.json. Debug/demo endpoints and static-power) Tj T* (differences must be interpreted separately.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 53 307.8898 cm
+q
+.027451 .34902 .521569 rg
+BT 1 0 0 1 0 4 Tm /F2 13 Tf 17 TL (Data provenance and license) Tj T* ET
+Q
+Q
+q
+1 0 0 1 53 244.0898 cm
+q
+.082353 .156863 .235294 rg
+BT 1 0 0 1 0 46.8 Tm /F1 10 Tf 14.2 TL (MIT-BIH Arrhythmia Database v1.0.0, Moody G and Mark R, PhysioNet \(2005\), DOI 10.13026/C2F305. Mode) Tj T* (8 uses record 119 from 1551.350 s; mode 9 uses record 100 from 31.724 s; each window lasts 30 s. Existing) Tj T* (data were resampled to 1 kHz, DC removed, centered at 1000 counts, scaled at 1500 counts/mV and clipped) Tj T* (to 0..4095.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 53 213.0898 cm
+q
+.321569 .392157 .466667 rg
+BT 1 0 0 1 0 14.7 Tm /F1 8.3 Tf 11.5 TL (Code uses MIT. The derived replay data retain the separate Open Data Commons Attribution License v1.0 notice in data/readme.md) Tj T* (and docs/data_sources_and_license.md. Source link: https://physionet.org/content/mitdb/1.0.0/) Tj T* ET
+Q
+Q
+q
+1 0 0 1 53 183.0898 cm
+q
+.027451 .34902 .521569 rg
+BT 1 0 0 1 0 4 Tm /F2 13 Tf 17 TL (AI collaboration and public release) Tj T* ET
+Q
+Q
+q
+1 0 0 1 53 119.2898 cm
+q
+.082353 .156863 .235294 rg
+BT 1 0 0 1 0 46.8 Tm /F1 10 Tf 14.2 TL (ai_records/ represents both supplied Codex and Claude material with redacted public selections and source) Tj T* (notes. These are historical collaboration records, not proof that every assistant claim was correct. Full private) Tj T* (account exports are excluded. skill/ provides the current main workflow plus build, verification, board and) Tj T* (power guidance.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 53 76.78976 cm
+q
+.321569 .392157 .466667 rg
+BT 1 0 0 1 0 26.2 Tm /F1 8.3 Tf 11.5 TL (The public checklist is docs/included_checklist.md. Filenames are lowercase; non-AI text is English. The release manifest records file) Tj T* (hashes. The original engineering archives remain unchanged. The original Chinese technical PDFs were replaced here with this) Tj T* (newly compiled English technical report.) Tj T* ET
+Q
+Q
+ 
+endstream
+endobj
+xref
+0 16
+0000000000 65535 f 
+0000000061 00000 n 
+0000000112 00000 n 
+0000000219 00000 n 
+0000000331 00000 n 
+0000000536 00000 n 
+0000000641 00000 n 
+0000000846 00000 n 
+0000001051 00000 n 
+0000001256 00000 n 
+0000001325 00000 n 
+0000001687 00000 n 
+0000001765 00000 n 
+0000008392 00000 n 
+0000012731 00000 n 
+0000019124 00000 n 
+trailer
+<<
+/ID 
+[<62722c6f504b57476cde48f9da424f28><62722c6f504b57476cde48f9da424f28>]
+% ReportLab generated PDF document -- digest (opensource)
+
+/Info 10 0 R
+/Root 9 0 R
+/Size 16
+>>
+startxref
+28930
+%%EOF

@@ -1,0 +1,2 @@
+XADC_READER_PASS: transactions=71 channel_filter=PASS delayed_DRDY=PASS no_overlap=PASS reset_abort=PASS upper12=PASS
+<PROJECT_ROOT>\sim\xadc_reader_tb.sv:62: $finish called at 14191000 (1ps)

@@ -1,0 +1,14 @@
+Vivado XSim 2025.2 functional simulation
+Time resolution is 1 ps
+STATE time_ns=197060000000 from=0 to=1
+STATE time_ns=7104060000000 from=1 to=2
+STATE time_ns=12903060000000 from=2 to=1
+STATE time_ns=18703060000000 from=1 to=0
+STATE time_ns=22997060000000 from=0 to=1
+STATE time_ns=29904060000000 from=1 to=2
+STATE time_ns=35703060000000 from=2 to=1
+STATE time_ns=41503060000000 from=1 to=0
+STATE time_ns=45797060000000 from=0 to=1
+CYCLE main_edges=2280000 gated_edges=1850604 reduction=0.188331579
+TOTAL main=4709740 baseline=4709740 gated=3831247 sleep_edges=0 input_errors=0
+COMPARISON_PASS

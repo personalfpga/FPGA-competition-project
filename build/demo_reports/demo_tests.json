@@ -1,0 +1,22 @@
+[
+  {
+    "test": "activity_counter",
+    "pass": true
+  },
+  {
+    "test": "activity_mode7",
+    "pass": true
+  },
+  {
+    "test": "activity_mode8",
+    "pass": true
+  },
+  {
+    "test": "activity_mode9",
+    "pass": true
+  },
+  {
+    "test": "activity_top",
+    "pass": true
+  }
+]

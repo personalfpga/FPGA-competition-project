@@ -1,0 +1,269 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2025.2 (win64) Build 6299465 Fri Nov 14 19:35:11 GMT 2025
+| Date         : Sat Oct 17 22:23:36 2026
+| Host         : <build_host> 
+| Command      : report_drc -file <LOCAL_BUILD_PATH>
+| Design       : ecg_top
+| Device       : xc7z015clg485-2
+| Speed File   : -2
+| Design State : Fully Routed
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report DRC
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: impl_1
+      Design limits: <entire design considered>
+           Ruledeck: default
+             Max checks: <unlimited>
+             Checks found: 46
++-----------+----------+--------------------------------------------------------------+--------+
+| Rule      | Severity | Description                                                  | Checks |
++-----------+----------+--------------------------------------------------------------+--------+
+| CHECK-3   | Warning  | Report rule limit reached                                    | 1      |
+| PDCN-137  | Warning  | enum_RAM_EXTENSION_A_not_NONE_connects_ADDRARDADDRL15_Tieoff | 24     |
+| REQP-1839 | Warning  | RAMB36 async control check                                   | 20     |
+| ZPS7-1    | Warning  | PS7 block required                                           | 1      |
++-----------+----------+--------------------------------------------------------------+--------+
+
+2. REPORT DETAILS
+-----------------
+CHECK-3#1 Warning
+Report rule limit reached  
+REQP-1839 rule limit reached: 20 violations have been found.
+Related violations: <none>
+
+PDCN-137#1 Warning
+enum_RAM_EXTENSION_A_not_NONE_connects_ADDRARDADDRL15_Tieoff  
+RAMB36E1 site RAMB36_X2Y10 has BlockRam (core/rom_i/dout_reg_0_8) with RAM_EXTENSION_A attribute set to LOWER and ADDRARADDRL15 pin tied to LOGIC 0 (GND). In this case only the Lower BRAM will be used.
+Related violations: <none>
+
+PDCN-137#2 Warning
+enum_RAM_EXTENSION_A_not_NONE_connects_ADDRARDADDRL15_Tieoff  
+RAMB36E1 site RAMB36_X2Y11 has BlockRam (core/rom_i/dout_reg_1_8) with RAM_EXTENSION_A attribute set to UPPER and ADDRARADDRL15 pin tied to LOGIC 0 (GND). In this case only the Lower BRAM will be used.
+Related violations: <none>
+
+PDCN-137#3 Warning
+enum_RAM_EXTENSION_A_not_NONE_connects_ADDRARDADDRL15_Tieoff  
+RAMB36E1 site RAMB36_X2Y12 has BlockRam (core/rom_i/dout_reg_0_1) with RAM_EXTENSION_A attribute set to LOWER and ADDRARADDRL15 pin tied to LOGIC 0 (GND). In this case only the Lower BRAM will be used.
+Related violations: <none>
+
+PDCN-137#4 Warning
+enum_RAM_EXTENSION_A_not_NONE_connects_ADDRARDADDRL15_Tieoff  
+RAMB36E1 site RAMB36_X2Y13 has BlockRam (core/rom_i/dout_reg_1_1) with RAM_EXTENSION_A attribute set to UPPER and ADDRARADDRL15 pin tied to LOGIC 0 (GND). In this case only the Lower BRAM will be used.
+Related violations: <none>
+
+PDCN-137#5 Warning
+enum_RAM_EXTENSION_A_not_NONE_connects_ADDRARDADDRL15_Tieoff  
+RAMB36E1 site RAMB36_X2Y14 has BlockRam (core/rom_i/dout_reg_0_7) with RAM_EXTENSION_A attribute set to LOWER and ADDRARADDRL15 pin tied to LOGIC 0 (GND). In this case only the Lower BRAM will be used.
+Related violations: <none>
+
+PDCN-137#6 Warning
+enum_RAM_EXTENSION_A_not_NONE_connects_ADDRARDADDRL15_Tieoff  
+RAMB36E1 site RAMB36_X2Y15 has BlockRam (core/rom_i/dout_reg_1_7) with RAM_EXTENSION_A attribute set to UPPER and ADDRARADDRL15 pin tied to LOGIC 0 (GND). In this case only the Lower BRAM will be used.
+Related violations: <none>
+
+PDCN-137#7 Warning
+enum_RAM_EXTENSION_A_not_NONE_connects_ADDRARDADDRL15_Tieoff  
+RAMB36E1 site RAMB36_X2Y16 has BlockRam (core/rom_i/dout_reg_0_5) with RAM_EXTENSION_A attribute set to LOWER and ADDRARADDRL15 pin tied to LOGIC 0 (GND). In this case only the Lower BRAM will be used.
+Related violations: <none>
+
+PDCN-137#8 Warning
+enum_RAM_EXTENSION_A_not_NONE_connects_ADDRARDADDRL15_Tieoff  
+RAMB36E1 site RAMB36_X2Y17 has BlockRam (core/rom_i/dout_reg_1_5) with RAM_EXTENSION_A attribute set to UPPER and ADDRARADDRL15 pin tied to LOGIC 0 (GND). In this case only the Lower BRAM will be used.
+Related violations: <none>
+
+PDCN-137#9 Warning
+enum_RAM_EXTENSION_A_not_NONE_connects_ADDRARDADDRL15_Tieoff  
+RAMB36E1 site RAMB36_X2Y6 has BlockRam (core/rom_i/dout_reg_0_6) with RAM_EXTENSION_A attribute set to LOWER and ADDRARADDRL15 pin tied to LOGIC 0 (GND). In this case only the Lower BRAM will be used.
+Related violations: <none>
+
+PDCN-137#10 Warning
+enum_RAM_EXTENSION_A_not_NONE_connects_ADDRARDADDRL15_Tieoff  
+RAMB36E1 site RAMB36_X2Y7 has BlockRam (core/rom_i/dout_reg_1_6) with RAM_EXTENSION_A attribute set to UPPER and ADDRARADDRL15 pin tied to LOGIC 0 (GND). In this case only the Lower BRAM will be used.
+Related violations: <none>
+
+PDCN-137#11 Warning
+enum_RAM_EXTENSION_A_not_NONE_connects_ADDRARDADDRL15_Tieoff  
+RAMB36E1 site RAMB36_X2Y8 has BlockRam (core/rom_i/dout_reg_0_0) with RAM_EXTENSION_A attribute set to LOWER and ADDRARADDRL15 pin tied to LOGIC 0 (GND). In this case only the Lower BRAM will be used.
+Related violations: <none>
+
+PDCN-137#12 Warning
+enum_RAM_EXTENSION_A_not_NONE_connects_ADDRARDADDRL15_Tieoff  
+RAMB36E1 site RAMB36_X2Y9 has BlockRam (core/rom_i/dout_reg_1_0) with RAM_EXTENSION_A attribute set to UPPER and ADDRARADDRL15 pin tied to LOGIC 0 (GND). In this case only the Lower BRAM will be used.
+Related violations: <none>
+
+PDCN-137#13 Warning
+enum_RAM_EXTENSION_A_not_NONE_connects_ADDRARDADDRL15_Tieoff  
+RAMB36E1 site RAMB36_X3Y10 has BlockRam (core/rom_i/dout_reg_0_10) with RAM_EXTENSION_A attribute set to LOWER and ADDRARADDRL15 pin tied to LOGIC 0 (GND). In this case only the Lower BRAM will be used.
+Related violations: <none>
+
+PDCN-137#14 Warning
+enum_RAM_EXTENSION_A_not_NONE_connects_ADDRARDADDRL15_Tieoff  
+RAMB36E1 site RAMB36_X3Y11 has BlockRam (core/rom_i/dout_reg_1_10) with RAM_EXTENSION_A attribute set to UPPER and ADDRARADDRL15 pin tied to LOGIC 0 (GND). In this case only the Lower BRAM will be used.
+Related violations: <none>
+
+PDCN-137#15 Warning
+enum_RAM_EXTENSION_A_not_NONE_connects_ADDRARDADDRL15_Tieoff  
+RAMB36E1 site RAMB36_X3Y12 has BlockRam (core/rom_i/dout_reg_0_4) with RAM_EXTENSION_A attribute set to LOWER and ADDRARADDRL15 pin tied to LOGIC 0 (GND). In this case only the Lower BRAM will be used.
+Related violations: <none>
+
+PDCN-137#16 Warning
+enum_RAM_EXTENSION_A_not_NONE_connects_ADDRARDADDRL15_Tieoff  
+RAMB36E1 site RAMB36_X3Y13 has BlockRam (core/rom_i/dout_reg_1_4) with RAM_EXTENSION_A attribute set to UPPER and ADDRARADDRL15 pin tied to LOGIC 0 (GND). In this case only the Lower BRAM will be used.
+Related violations: <none>
+
+PDCN-137#17 Warning
+enum_RAM_EXTENSION_A_not_NONE_connects_ADDRARDADDRL15_Tieoff  
+RAMB36E1 site RAMB36_X3Y14 has BlockRam (core/rom_i/dout_reg_0_3) with RAM_EXTENSION_A attribute set to LOWER and ADDRARADDRL15 pin tied to LOGIC 0 (GND). In this case only the Lower BRAM will be used.
+Related violations: <none>
+
+PDCN-137#18 Warning
+enum_RAM_EXTENSION_A_not_NONE_connects_ADDRARDADDRL15_Tieoff  
+RAMB36E1 site RAMB36_X3Y15 has BlockRam (core/rom_i/dout_reg_1_3) with RAM_EXTENSION_A attribute set to UPPER and ADDRARADDRL15 pin tied to LOGIC 0 (GND). In this case only the Lower BRAM will be used.
+Related violations: <none>
+
+PDCN-137#19 Warning
+enum_RAM_EXTENSION_A_not_NONE_connects_ADDRARDADDRL15_Tieoff  
+RAMB36E1 site RAMB36_X3Y8 has BlockRam (core/rom_i/dout_reg_0_2) with RAM_EXTENSION_A attribute set to LOWER and ADDRARADDRL15 pin tied to LOGIC 0 (GND). In this case only the Lower BRAM will be used.
+Related violations: <none>
+
+PDCN-137#20 Warning
+enum_RAM_EXTENSION_A_not_NONE_connects_ADDRARDADDRL15_Tieoff  
+RAMB36E1 site RAMB36_X3Y9 has BlockRam (core/rom_i/dout_reg_1_2) with RAM_EXTENSION_A attribute set to UPPER and ADDRARADDRL15 pin tied to LOGIC 0 (GND). In this case only the Lower BRAM will be used.
+Related violations: <none>
+
+PDCN-137#21 Warning
+enum_RAM_EXTENSION_A_not_NONE_connects_ADDRARDADDRL15_Tieoff  
+RAMB36E1 site RAMB36_X4Y10 has BlockRam (core/rom_i/dout_reg_0_11) with RAM_EXTENSION_A attribute set to LOWER and ADDRARADDRL15 pin tied to LOGIC 0 (GND). In this case only the Lower BRAM will be used.
+Related violations: <none>
+
+PDCN-137#22 Warning
+enum_RAM_EXTENSION_A_not_NONE_connects_ADDRARDADDRL15_Tieoff  
+RAMB36E1 site RAMB36_X4Y11 has BlockRam (core/rom_i/dout_reg_1_11) with RAM_EXTENSION_A attribute set to UPPER and ADDRARADDRL15 pin tied to LOGIC 0 (GND). In this case only the Lower BRAM will be used.
+Related violations: <none>
+
+PDCN-137#23 Warning
+enum_RAM_EXTENSION_A_not_NONE_connects_ADDRARDADDRL15_Tieoff  
+RAMB36E1 site RAMB36_X4Y12 has BlockRam (core/rom_i/dout_reg_0_9) with RAM_EXTENSION_A attribute set to LOWER and ADDRARADDRL15 pin tied to LOGIC 0 (GND). In this case only the Lower BRAM will be used.
+Related violations: <none>
+
+PDCN-137#24 Warning
+enum_RAM_EXTENSION_A_not_NONE_connects_ADDRARDADDRL15_Tieoff  
+RAMB36E1 site RAMB36_X4Y13 has BlockRam (core/rom_i/dout_reg_1_9) with RAM_EXTENSION_A attribute set to UPPER and ADDRARADDRL15 pin tied to LOGIC 0 (GND). In this case only the Lower BRAM will be used.
+Related violations: <none>
+
+REQP-1839#1 Warning
+RAMB36 async control check  
+The RAMB36E1 core/rom_i/dout_reg_0_5 has an input control pin core/rom_i/dout_reg_0_5/ADDRARDADDR[0] (net: core/rom_i/Q[0]) which is driven by a register (core/rom_idx_reg[0]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#2 Warning
+RAMB36 async control check  
+The RAMB36E1 core/rom_i/dout_reg_0_5 has an input control pin core/rom_i/dout_reg_0_5/ADDRARDADDR[10] (net: core/rom_i/Q[10]) which is driven by a register (core/rom_idx_reg[10]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#3 Warning
+RAMB36 async control check  
+The RAMB36E1 core/rom_i/dout_reg_0_5 has an input control pin core/rom_i/dout_reg_0_5/ADDRARDADDR[11] (net: core/rom_i/Q[11]) which is driven by a register (core/rom_idx_reg[11]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#4 Warning
+RAMB36 async control check  
+The RAMB36E1 core/rom_i/dout_reg_0_5 has an input control pin core/rom_i/dout_reg_0_5/ADDRARDADDR[12] (net: core/rom_i/Q[12]) which is driven by a register (core/rom_idx_reg[12]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#5 Warning
+RAMB36 async control check  
+The RAMB36E1 core/rom_i/dout_reg_0_5 has an input control pin core/rom_i/dout_reg_0_5/ADDRARDADDR[13] (net: core/rom_i/Q[13]) which is driven by a register (core/rom_idx_reg[13]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#6 Warning
+RAMB36 async control check  
+The RAMB36E1 core/rom_i/dout_reg_0_5 has an input control pin core/rom_i/dout_reg_0_5/ADDRARDADDR[14] (net: core/rom_i/Q[14]) which is driven by a register (core/rom_idx_reg[14]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#7 Warning
+RAMB36 async control check  
+The RAMB36E1 core/rom_i/dout_reg_0_5 has an input control pin core/rom_i/dout_reg_0_5/ADDRARDADDR[1] (net: core/rom_i/Q[1]) which is driven by a register (core/rom_idx_reg[1]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#8 Warning
+RAMB36 async control check  
+The RAMB36E1 core/rom_i/dout_reg_0_5 has an input control pin core/rom_i/dout_reg_0_5/ADDRARDADDR[2] (net: core/rom_i/Q[2]) which is driven by a register (core/rom_idx_reg[2]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#9 Warning
+RAMB36 async control check  
+The RAMB36E1 core/rom_i/dout_reg_0_5 has an input control pin core/rom_i/dout_reg_0_5/ADDRARDADDR[3] (net: core/rom_i/Q[3]) which is driven by a register (core/rom_idx_reg[3]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#10 Warning
+RAMB36 async control check  
+The RAMB36E1 core/rom_i/dout_reg_0_5 has an input control pin core/rom_i/dout_reg_0_5/ADDRARDADDR[4] (net: core/rom_i/Q[4]) which is driven by a register (core/rom_idx_reg[4]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#11 Warning
+RAMB36 async control check  
+The RAMB36E1 core/rom_i/dout_reg_0_5 has an input control pin core/rom_i/dout_reg_0_5/ADDRARDADDR[5] (net: core/rom_i/Q[5]) which is driven by a register (core/rom_idx_reg[5]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#12 Warning
+RAMB36 async control check  
+The RAMB36E1 core/rom_i/dout_reg_0_5 has an input control pin core/rom_i/dout_reg_0_5/ADDRARDADDR[6] (net: core/rom_i/Q[6]) which is driven by a register (core/rom_idx_reg[6]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#13 Warning
+RAMB36 async control check  
+The RAMB36E1 core/rom_i/dout_reg_0_5 has an input control pin core/rom_i/dout_reg_0_5/ADDRARDADDR[7] (net: core/rom_i/Q[7]) which is driven by a register (core/rom_idx_reg[7]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#14 Warning
+RAMB36 async control check  
+The RAMB36E1 core/rom_i/dout_reg_0_5 has an input control pin core/rom_i/dout_reg_0_5/ADDRARDADDR[8] (net: core/rom_i/Q[8]) which is driven by a register (core/rom_idx_reg[8]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#15 Warning
+RAMB36 async control check  
+The RAMB36E1 core/rom_i/dout_reg_0_5 has an input control pin core/rom_i/dout_reg_0_5/ADDRARDADDR[9] (net: core/rom_i/Q[9]) which is driven by a register (core/rom_idx_reg[9]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#16 Warning
+RAMB36 async control check  
+The RAMB36E1 core/rom_i/dout_reg_0_5 has an input control pin core/rom_i/dout_reg_0_5/ENARDEN (net: core/rom_i/dout_reg_0_5_ENARDEN_cooolgate_en_sig_9) which is driven by a register (reset_pipe_reg[1]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#17 Warning
+RAMB36 async control check  
+The RAMB36E1 core/rom_i/dout_reg_0_6 has an input control pin core/rom_i/dout_reg_0_6/ADDRARDADDR[11] (net: core/rom_i/Q[11]) which is driven by a register (core/rom_idx_reg[11]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#18 Warning
+RAMB36 async control check  
+The RAMB36E1 core/rom_i/dout_reg_0_6 has an input control pin core/rom_i/dout_reg_0_6/ADDRARDADDR[12] (net: core/rom_i/Q[12]) which is driven by a register (core/rom_idx_reg[12]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#19 Warning
+RAMB36 async control check  
+The RAMB36E1 core/rom_i/dout_reg_0_6 has an input control pin core/rom_i/dout_reg_0_6/ADDRARDADDR[13] (net: core/rom_i/Q[13]) which is driven by a register (core/rom_idx_reg[13]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#20 Warning
+RAMB36 async control check  
+The RAMB36E1 core/rom_i/dout_reg_0_6 has an input control pin core/rom_i/dout_reg_0_6/ADDRARDADDR[14] (net: core/rom_i/Q[14]) which is driven by a register (core/rom_idx_reg[14]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+ZPS7-1#1 Warning
+PS7 block required  
+The PS7 cell must be used in this Zynq design in order to enable correct default configuration.
+Related violations: <none>
+
+

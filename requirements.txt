@@ -1,0 +1,2 @@
+# Required for RTL regression and ROM reference checking.
+numpy

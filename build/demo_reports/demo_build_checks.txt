@@ -1,0 +1,1 @@
+DEMO_BUILD_PASS WNS=6.693 WHS=0.052 debug=VIO only no_extra_pins=1 no_flash_write=1

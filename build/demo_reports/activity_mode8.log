@@ -1,0 +1,2 @@
+ACTIVITY_INTEGRATION_PASS mode=8 actual_clock_edges_match=1 total=6203100 gated=6170299
+<source>/activity_integration_tb.sv:64: $finish called at 62031100001000 (1ps)

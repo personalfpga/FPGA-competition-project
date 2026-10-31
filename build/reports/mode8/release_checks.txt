@@ -1,0 +1,6 @@
+vivado=2025.2 tag=mode8 part=xc7z015clg485-2 clock_hz=50000000
+gain_q8=5120 use_adc=0 test_mode=8 ENABLE_ADAPTIVE=1 USE_CLK_GATE=1 SLEEP_TIMEOUT=2500
+WNS=13.662 WHS=0.116 debug_cells=0 DRC_errors=0 gate_cells=1
+power_method=post_route_vectorless_no_SAIF common_tool_defaults_not_measured_power
+calibration=NOT_PERFORMED analog_input_accuracy=NOT_VERIFIED
+hardware_download=NOT_CLAIMED_BY_BUILD_SCRIPT

@@ -1,0 +1,29 @@
+{
+  "status": "BOARD_CAPTURE_PASS",
+  "source": "board_activity_counter",
+  "power": "estimate_only",
+  "samples": 73,
+  "states_observed": [
+    0,
+    1,
+    2
+  ],
+  "per_state_activity_range": {
+    "0": {
+      "min": 0.0,
+      "max": 0.8794150370237717,
+      "windows": 12
+    },
+    "1": {
+      "min": 0.27164919817221256,
+      "max": 1.0,
+      "windows": 39
+    },
+    "2": {
+      "min": 1.0,
+      "max": 1.0,
+      "windows": 22
+    }
+  },
+  "note": "Windows that cross a transition contain mixed activity; state metadata is sampled at the end."
+}

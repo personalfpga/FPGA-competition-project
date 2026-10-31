@@ -1,0 +1,18 @@
+__pycache__/
+*.pyc
+*.jou
+*.log
+.Xil/
+*.runs/
+*.cache/
+*.sim/
+*.ip_user_files/
+simulation_work/
+build/*/ecg*/
+
+# Keep small archived evidence logs; ignore newly generated run products.
+!build/reports/**/*.log
+!build/demo_reports/**/*.log
+sim/waveform_comparison/run/
+build/*/private_reports/
+build/demo_work/

@@ -1,0 +1,6 @@
+vivado=2025.2 tag=baseline part=xc7z015clg485-2 clock_hz=50000000
+gain_q8=5120 use_adc=0 test_mode=7 ENABLE_ADAPTIVE=0 USE_CLK_GATE=0 SLEEP_TIMEOUT=2500
+WNS=14.814 WHS=0.120 debug_cells=0 DRC_errors=0 gate_cells=0
+power_method=post_route_vectorless_no_SAIF common_tool_defaults_not_measured_power
+calibration=NOT_PERFORMED analog_input_accuracy=NOT_VERIFIED
+hardware_download=NOT_CLAIMED_BY_BUILD_SCRIPT

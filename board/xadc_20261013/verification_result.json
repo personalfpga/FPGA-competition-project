@@ -1,0 +1,80 @@
+{
+  "status": "ARCHIVED_ADC_EVIDENCE_PASS",
+  "capture_project": "Z15_XADC_Task2_20261013",
+  "samples": 4096,
+  "min_code": 4,
+  "max_code": 3033,
+  "requested_4096_and_4_to_3033_match": true,
+  "hardware_count_first": 35113343,
+  "hardware_count_last": 35117438,
+  "hardware_count_inclusive_span": 4096,
+  "extreme_records": {
+    "minimum": {
+      "code": 4,
+      "sample_index": 1335,
+      "decoded_csv_line": 1337,
+      "raw_csv_line": 1338,
+      "raw_word_hex": "0049",
+      "hardware_sample_count": 35114678,
+      "nominal_voltage_v": 0.0009765625
+    },
+    "maximum": {
+      "code": 3033,
+      "sample_index": 2060,
+      "decoded_csv_line": 2062,
+      "raw_csv_line": 2063,
+      "raw_word_hex": "bd95",
+      "hardware_sample_count": 35115403,
+      "nominal_voltage_v": 0.740478515625
+    }
+  },
+  "checks": {
+    "sample_indices_consecutive": true,
+    "raw_words_match": true,
+    "raw_adc_code_matches_upper_12_bits": true,
+    "decoded_codes_match_raw": true,
+    "hardware_counts_match": true,
+    "hardware_counts_consecutive": true,
+    "all_channel_03": true,
+    "all_sample_valid_bit_4": true,
+    "voltages_match_code_over_4096": true,
+    "processing_columns_match": true,
+    "direct_read_decoding_consistent": true,
+    "all_archived_hashes_match": true
+  },
+  "sysmon": {
+    "configuration_registers": {
+      "REG_40": "0103",
+      "REG_41": "31A0",
+      "REG_42": "1400",
+      "REG_48": "0100",
+      "REG_4C": "0000",
+      "REG_4E": "0000"
+    },
+    "measurement_read_count": 10,
+    "min_code": 6,
+    "max_code": 3024,
+    "first_timestamp": "2026-10-13 21:15:29",
+    "last_timestamp": "2026-10-13 21:15:30",
+    "same_capture_as_4096_ila_samples": false
+  },
+  "files": {
+    "adc_samples_decoded.csv": {
+      "sha256": "48cf8f20bf74fdf297fb04930ae9cb2c4fdc52f76b3da5cf3409149e868e8877",
+      "matches_archived_manifest": true
+    },
+    "sysmon_registers.txt": {
+      "sha256": "67d5bdc8be2eb57dca80381f350c52a8c4d951d42536a2d3f5a0f3aa4d28ad61",
+      "matches_archived_manifest": true
+    },
+    "raw/valid_samples.csv": {
+      "sha256": "bc06a1972313a9b58f456fcb063cfacdf0609f957ec8558521cb00448d47c227",
+      "matches_archived_manifest": true
+    },
+    "raw/valid_samples.ila": {
+      "sha256": "101ba326c2fa333daae70fea2ca40abcd5a016564d89baebc4de4b247e0e8da9",
+      "matches_archived_manifest": true
+    }
+  },
+  "scope": "Independent recheck of archived files; no new board measurement, no proof of clinical ECG, no analog calibration claim"
+}

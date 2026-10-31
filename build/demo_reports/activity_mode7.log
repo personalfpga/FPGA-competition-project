@@ -1,0 +1,2 @@
+ACTIVITY_INTEGRATION_PASS mode=7 sleep_edges=11/878501 normal_edges=2664046/2664049 alert_edges=1159800/1159800 cycle_total=2280000 cycle_gated=1850604 saved_ppm=188332
+<source>/activity_integration_tb.sv:64: $finish called at 47023600001000 (1ps)

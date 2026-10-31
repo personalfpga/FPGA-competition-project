@@ -1,0 +1,2 @@
+ACTIVITY_COUNTER_PASS sleep normal alert held_snapshot atomic_clear wrap metadata
+<source>/activity_counter_tb.sv:43: $finish called at 6601000 (1ps)

@@ -1,0 +1,19 @@
+STATE: time_ms=197 0 -> 1
+HEART_RATE: time=1003255000000 BPM=75
+HEART_RATE: time=7103255000000 BPM=120
+STATE: time_ms=7104 1 -> 2
+HEART_RATE: time=11403255000000 BPM=75
+STATE: time_ms=12903 2 -> 1
+STATE: time_ms=18703 1 -> 0
+STATE: time_ms=22997 0 -> 1
+HEART_RATE: time=29903255000000 BPM=120
+STATE: time_ms=29904 1 -> 2
+HEART_RATE: time=34203255000000 BPM=75
+STATE: time_ms=35703 2 -> 1
+STATE: time_ms=41503 1 -> 0
+STATE: time_ms=45797 0 -> 1
+CYCLE_GATING: main_edges=2280000 gated_edges=1850604 saved_per_mille=188
+STATS: sleep_samples=8785 normal_samples=26616 alert_samples=11598
+CLOCK_GATING: main_edges=4699998 gated_edges=3821505 gated_edges_in_sleep=0 saved_per_mille=186
+ECG_TEST_PASS: transitions=9 saw_75=1 saw_120=1 samples=46999
+<PROJECT_ROOT>\sim\ecg_tb.v:112: $finish called at 47000055000000 (1ps)

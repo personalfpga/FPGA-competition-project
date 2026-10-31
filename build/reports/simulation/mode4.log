@@ -1,0 +1,2 @@
+MODE=4 ms=20000 sleep=20000 normal=0 alert=0 trans=0 rpeaks=0 hr_min=255 hr_max=0 first_alert=-1 first_sleep=1
+<PROJECT_ROOT>\sim\ecg_mode_tb.v:41: $finish called at 20000095000000 (1ps)

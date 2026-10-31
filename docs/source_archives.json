@@ -1,0 +1,20 @@
+[
+  {
+    "source": "repository_zip",
+    "sha256": "06099535fc77c574b15ee2080c505da73a8af51be67e038174cdef5d41cb6150",
+    "files": 641,
+    "read_mode": "metadata and permitted project material only"
+  },
+  {
+    "source": "submission_materials_zip",
+    "sha256": "745d1b84153708b39a96c63de8dd0045f4d9bc092b0bfa6292067471ede53bd3",
+    "files": 15,
+    "read_mode": "metadata and permitted project material only"
+  },
+  {
+    "source": "waveforms_zip",
+    "sha256": "f8b2231775d27126ff9ef88a4743f28d6c6af1b396b3aa55ccce44f42e29fa60",
+    "files": 31,
+    "read_mode": "metadata and permitted project material only"
+  }
+]

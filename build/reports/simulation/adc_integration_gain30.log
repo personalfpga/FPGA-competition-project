@@ -1,0 +1,2 @@
+ADC_INTEGRATION_PASS samples=12000 interval_clocks=100 prepare_lead=8 75bpm=PASS 120bpm=PASS LED=PASS R_gt4000=PASS T_le2500=PASS
+<PROJECT_ROOT>\sim\adc_integration_tb.sv:62: $finish called at 12001065000 (1ps)

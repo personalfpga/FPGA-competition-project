@@ -1,0 +1,1 @@
+vivado=2025.2 design=checkpoint_ecg_top_routed part=xc7z015clg485-2 bram_cells=0 debug_cores=0 ce=1 policy=auto

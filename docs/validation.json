@@ -1,0 +1,51 @@
+{
+  "requested_categories": 10,
+  "all_requested_categories_present": true,
+  "archived_regression_results_rechecked": 17,
+  "regression_execution_scope": "existing logs rechecked and ROM peaks compared to software model; no fresh full regression or synthesis claimed",
+  "tcl_batch_variant_dispatch": "passed, 6 variants, synthesis commands intercepted",
+  "board_mode_prerequisites": "modes 7/8/9 passed; stopped before opening hardware",
+  "source_rtl_archive_matches": [
+    {
+      "file": "src/rtl/ecg_adc_conditioner.v",
+      "original_archive_byte_match": true
+    },
+    {
+      "file": "src/rtl/ecg_bpm_divider.v",
+      "original_archive_byte_match": true
+    },
+    {
+      "file": "src/rtl/ecg_core.v",
+      "original_archive_byte_match": true
+    },
+    {
+      "file": "src/rtl/ecg_pattern_gen.v",
+      "original_archive_byte_match": true
+    },
+    {
+      "file": "src/rtl/ecg_rom.v",
+      "original_archive_byte_match": true
+    },
+    {
+      "file": "src/rtl/ecg_sample_schedule.v",
+      "original_archive_byte_match": true
+    },
+    {
+      "file": "src/rtl/ecg_top.v",
+      "original_archive_byte_match": true
+    },
+    {
+      "file": "src/rtl/xadc_reader.v",
+      "original_archive_byte_match": true
+    }
+  ],
+  "waveform_archive_media_hashes": "all 5 supplied JPG/MP4 media files match",
+  "technical_pdf_pages": 4,
+  "technical_pdf_visual_review": "all 4 pages inspected",
+  "privacy_scan_findings": 0,
+  "naming_findings": 0,
+  "missing_markdown_links": 0,
+  "files_over_100_mb": 0,
+  "bitstreams_over_50_mb": 0,
+  "source_archives_modified": false
+}

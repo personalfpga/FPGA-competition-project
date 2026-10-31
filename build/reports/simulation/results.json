@@ -1,0 +1,121 @@
+[
+  {
+    "test": "conditioner",
+    "status": "PASS",
+    "summary": [
+      "CONDITIONER_PASS exhaustive_vectors=20480 gain_cases=5 signed=PASS saturation=PASS warmup=PASS stale=PASS dc_track=PASS"
+    ]
+  },
+  {
+    "test": "reader",
+    "status": "PASS",
+    "summary": [
+      "XADC_READER_PASS: transactions=71 channel_filter=PASS delayed_DRDY=PASS no_overlap=PASS reset_abort=PASS upper12=PASS"
+    ]
+  },
+  {
+    "test": "adc_integration",
+    "status": "PASS",
+    "summary": [
+      "ADC_INTEGRATION_PASS samples=12000 interval_clocks=100 prepare_lead=8 75bpm=PASS 120bpm=PASS LED=PASS R_gt4000=PASS T_le2500=PASS"
+    ]
+  },
+  {
+    "test": "adc_integration_gain30",
+    "status": "PASS",
+    "summary": [
+      "ADC_INTEGRATION_PASS samples=12000 interval_clocks=100 prepare_lead=8 75bpm=PASS 120bpm=PASS LED=PASS R_gt4000=PASS T_le2500=PASS"
+    ]
+  },
+  {
+    "test": "power_variants",
+    "status": "PASS",
+    "summary": [
+      "POWER_VARIANTS_PASS baseline_always_process=PASS FSM_sleep=PASS gate_stop=PASS common_75bpm=PASS"
+    ]
+  },
+  {
+    "test": "legacy",
+    "status": "PASS",
+    "summary": [
+      "ECG_TEST_PASS: transitions=9 saw_75=1 saw_120=1 samples=46999"
+    ]
+  },
+  {
+    "test": "mode0",
+    "status": "PASS",
+    "summary": [
+      "MODE=0 ms=20000 sleep=197 normal=19803 alert=0 trans=1 rpeaks=25 hr_min=75 hr_max=75 first_alert=-1 first_sleep=1"
+    ]
+  },
+  {
+    "test": "mode1",
+    "status": "PASS",
+    "summary": [
+      "MODE=1 ms=20000 sleep=197 normal=507 alert=19296 trans=2 rpeaks=40 hr_min=120 hr_max=120 first_alert=705 first_sleep=1"
+    ]
+  },
+  {
+    "test": "mode2",
+    "status": "PASS",
+    "summary": [
+      "MODE=2 ms=20000 sleep=197 normal=1340 alert=18463 trans=2 rpeaks=15 hr_min=45 hr_max=45 first_alert=1538 first_sleep=1"
+    ]
+  },
+  {
+    "test": "mode3",
+    "status": "PASS",
+    "summary": [
+      "MODE=3 ms=20000 sleep=197 normal=507 alert=19296 trans=2 rpeaks=29 hr_min=66 hr_max=120 first_alert=705 first_sleep=1"
+    ]
+  },
+  {
+    "test": "mode4",
+    "status": "PASS",
+    "summary": [
+      "MODE=4 ms=20000 sleep=20000 normal=0 alert=0 trans=0 rpeaks=0 hr_min=255 hr_max=0 first_alert=-1 first_sleep=1"
+    ]
+  },
+  {
+    "test": "mode5",
+    "status": "PASS",
+    "summary": [
+      "MODE=5 ms=20000 sleep=197 normal=19803 alert=0 trans=1 rpeaks=25 hr_min=75 hr_max=75 first_alert=-1 first_sleep=1"
+    ]
+  },
+  {
+    "test": "mode6",
+    "status": "PASS",
+    "summary": [
+      "MODE=6 ms=20000 sleep=20000 normal=0 alert=0 trans=0 rpeaks=0 hr_min=255 hr_max=0 first_alert=-1 first_sleep=1"
+    ]
+  },
+  {
+    "test": "mode8",
+    "status": "PASS",
+    "summary": [
+      "MODE=8 ms=62000 sleep=328 normal=12830 alert=48842 trans=10 rpeaks=71 hr_min=40 hr_max=118 first_alert=2517 first_sleep=1"
+    ]
+  },
+  {
+    "test": "rom_exact_8",
+    "status": "PASS",
+    "summary": [
+      "ROM_REPLAY_PASS mode=8 sim=71 model=71 constant_offset_ms=2 duration_ms=62000"
+    ]
+  },
+  {
+    "test": "mode9",
+    "status": "PASS",
+    "summary": [
+      "MODE=9 ms=62000 sleep=159 normal=61841 alert=0 trans=1 rpeaks=77 hr_min=68 hr_max=86 first_alert=-1 first_sleep=1"
+    ]
+  },
+  {
+    "test": "rom_exact_9",
+    "status": "PASS",
+    "summary": [
+      "ROM_REPLAY_PASS mode=9 sim=77 model=77 constant_offset_ms=2 duration_ms=62000"
+    ]
+  }
+]

@@ -1,0 +1,83 @@
+STATE ms=328 0 -> 1
+RPEAK ms=335 bpm=0 state=1
+RPEAK ms=1138 bpm=0 state=1
+RPEAK ms=1988 bpm=74 state=1
+RPEAK ms=2514 bpm=70 state=1
+STATE ms=2516 1 -> 2
+RPEAK ms=3717 bpm=114 state=2
+RPEAK ms=4595 bpm=49 state=2
+RPEAK ms=5492 bpm=68 state=2
+RPEAK ms=6018 bpm=66 state=2
+RPEAK ms=7370 bpm=114 state=2
+RPEAK ms=8348 bpm=44 state=2
+RPEAK ms=9298 bpm=61 state=2
+STATE ms=9849 2 -> 1
+RPEAK ms=10231 bpm=63 state=1
+RPEAK ms=10739 bpm=64 state=1
+STATE ms=10741 1 -> 2
+RPEAK ms=12212 bpm=118 state=2
+RPEAK ms=13165 bpm=40 state=2
+RPEAK ms=14095 bpm=63 state=2
+RPEAK ms=14605 bpm=64 state=2
+RPEAK ms=16008 bpm=117 state=2
+RPEAK ms=16938 bpm=42 state=2
+RPEAK ms=17881 bpm=64 state=2
+STATE ms=18439 2 -> 1
+RPEAK ms=18786 bpm=63 state=1
+RPEAK ms=19718 bpm=66 state=1
+RPEAK ms=20653 bpm=64 state=1
+RPEAK ms=21504 bpm=64 state=1
+RPEAK ms=22357 bpm=70 state=1
+RPEAK ms=22866 bpm=70 state=1
+STATE ms=22868 1 -> 2
+RPEAK ms=24009 bpm=118 state=2
+RPEAK ms=24532 bpm=52 state=2
+RPEAK ms=25794 bpm=114 state=2
+RPEAK ms=26653 bpm=47 state=2
+RPEAK ms=27494 bpm=69 state=2
+RPEAK ms=28048 bpm=71 state=2
+RPEAK ms=29286 bpm=108 state=2
+RPEAK ms=29802 bpm=48 state=2
+RPEAK ms=30335 bpm=116 state=2
+RPEAK ms=31138 bpm=112 state=2
+RPEAK ms=31988 bpm=74 state=2
+RPEAK ms=32514 bpm=70 state=2
+RPEAK ms=33717 bpm=114 state=2
+RPEAK ms=34595 bpm=49 state=2
+RPEAK ms=35492 bpm=68 state=2
+RPEAK ms=36018 bpm=66 state=2
+RPEAK ms=37370 bpm=114 state=2
+RPEAK ms=38348 bpm=44 state=2
+RPEAK ms=39298 bpm=61 state=2
+STATE ms=39849 2 -> 1
+RPEAK ms=40231 bpm=63 state=1
+RPEAK ms=40739 bpm=64 state=1
+STATE ms=40741 1 -> 2
+RPEAK ms=42212 bpm=118 state=2
+RPEAK ms=43165 bpm=40 state=2
+RPEAK ms=44095 bpm=63 state=2
+RPEAK ms=44605 bpm=64 state=2
+RPEAK ms=46008 bpm=117 state=2
+RPEAK ms=46938 bpm=42 state=2
+RPEAK ms=47881 bpm=64 state=2
+STATE ms=48439 2 -> 1
+RPEAK ms=48786 bpm=63 state=1
+RPEAK ms=49718 bpm=66 state=1
+RPEAK ms=50653 bpm=64 state=1
+RPEAK ms=51504 bpm=64 state=1
+RPEAK ms=52357 bpm=70 state=1
+RPEAK ms=52866 bpm=70 state=1
+STATE ms=52868 1 -> 2
+RPEAK ms=54009 bpm=118 state=2
+RPEAK ms=54532 bpm=52 state=2
+RPEAK ms=55794 bpm=114 state=2
+RPEAK ms=56653 bpm=47 state=2
+RPEAK ms=57494 bpm=69 state=2
+RPEAK ms=58048 bpm=71 state=2
+RPEAK ms=59286 bpm=108 state=2
+RPEAK ms=59802 bpm=48 state=2
+RPEAK ms=60335 bpm=116 state=2
+RPEAK ms=61138 bpm=112 state=2
+RPEAK ms=61988 bpm=74 state=2
+MODE=8 ms=62000 sleep=328 normal=12830 alert=48842 trans=10 rpeaks=71 hr_min=40 hr_max=118 first_alert=2517 first_sleep=1
+<PROJECT_ROOT>\sim\ecg_mode_tb.v:41: $finish called at 62000095000000 (1ps)

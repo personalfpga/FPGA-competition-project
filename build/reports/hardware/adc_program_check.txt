@@ -1,0 +1,10 @@
+started=2026-10-17 22:23:55 +0800
+device=xc7z015 target=<JTAG_TARGET> bitstream=bitstreams/adc_release.bit
+programming=volatile_JTAG_only no_flash_write=1 wiring_changed=0
+DONE=1 ILA_count=0 VIO_count=0
+XADC_readback=PASS register=03 samples=32
+Readback confirms ADC register access, not analog ECG accuracy or signal-generator calibration.
+gain_q8=5120 candidate_gain=20.0x calibration=NOT_PERFORMED
+verification_scope=JTAG_DONE_debug_core_removal_ADC_register_access_only
+external_signal_generator_connected=NOT_VERIFIED R_T_amplitude_targets=NOT_VERIFIED
+status=PASS board_left=adc

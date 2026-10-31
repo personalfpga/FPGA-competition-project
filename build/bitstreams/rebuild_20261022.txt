@@ -1,0 +1,17 @@
+Rebuilt bitstreams 20261022
+
+Vivado 2025.2; xc7z015clg485-2; 50 MHz.
+No RTL, constraints or build scripts were changed.
+gated_release.bit and mode7_release.bit are identical copies of the new mode7 gated build.
+mode8_release.bit and mode9_release.bit are the new MIT replay release builds.
+The independent demo bit and its matching ltx were replaced together in activity_demo/demo/bitstreams.
+Release excludes VIO and ILA. Demo includes the activity counter, ROM and VIO.
+Fresh release regression 17 PASS; demo tests 5 PASS; page model tests 10 PASS.
+No hardware programming or power measurement was performed by this rebuild.
+Power remains a Vivado estimate; the page uses the new demo endpoint reports.
+
+Old artifacts and manifests: build/bit_backup_20261022/
+New build evidence and SHA256: reports/rebuild_20261022/
+Older audit documents and reports describe their dated snapshots.
+The embedded activity_demo/release/ directory is the preserved original R2 source snapshot.
+Its RTL matches the current release RTL; its historical bitstreams were not rewritten.

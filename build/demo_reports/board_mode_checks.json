@@ -1,0 +1,43 @@
+{
+  "selection_order": [
+    7,
+    8,
+    9
+  ],
+  "segments": [
+    {
+      "mode": 7,
+      "samples": 73,
+      "states": [
+        0,
+        1,
+        2
+      ],
+      "bpm_min": 75,
+      "bpm_max": 120,
+      "file": "board_mode7_segment1.csv"
+    },
+    {
+      "mode": 8,
+      "samples": 209,
+      "states": [
+        1,
+        2
+      ],
+      "bpm_min": 0,
+      "bpm_max": 118,
+      "file": "board_mode8_segment2.csv"
+    },
+    {
+      "mode": 9,
+      "samples": 91,
+      "states": [
+        1
+      ],
+      "bpm_min": 68,
+      "bpm_max": 77,
+      "file": "board_mode9_segment3.csv"
+    }
+  ],
+  "provenance": "Mode selection order recorded during UI verification; counters are read from VIO."
+}

@@ -1,0 +1,60 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2025.2 (win64) Build 6299465 Fri Nov 14 19:35:11 GMT 2025
+| Date         : Thu Oct 22 22:12:38 2026
+| Host         : <build_host> 
+| Command      : report_utilization -hierarchical -file <local_path>
+| Design       : ecg_activity_top
+| Device       : xc7z015clg485-2
+| Speed File   : -2
+| Design State : Routed
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Utilization Design Information
+
+Table of Contents
+-----------------
+1. Utilization by Hierarchy
+
+1. Utilization by Hierarchy
+---------------------------
+
++-------------------------------------------------------+------------------------------------------------------+------------+------------+---------+------+------+--------+--------+------------+
+|                        Instance                       |                        Module                        | Total LUTs | Logic LUTs | LUTRAMs | SRLs |  FFs | RAMB36 | RAMB18 | DSP Blocks |
++-------------------------------------------------------+------------------------------------------------------+------------+------------+---------+------+------+--------+--------+------------+
+| ecg_activity_top                                      |                                                (top) |       1264 |       1240 |      24 |    0 | 1992 |     24 |      0 |          0 |
+|   (ecg_activity_top)                                  |                                                (top) |          2 |          2 |       0 |    0 |    2 |      0 |      0 |          0 |
+|   core                                                |                                    ecg_core_observed |        559 |        559 |       0 |    0 |  468 |     24 |      0 |          0 |
+|     (core)                                            |                                    ecg_core_observed |        280 |        280 |       0 |    0 |  308 |      0 |      0 |          0 |
+|     bpm_divider                                       |                                      ecg_bpm_divider |        118 |        118 |       0 |    0 |   97 |      0 |      0 |          0 |
+|     pat_gen                                           |                                      ecg_pattern_gen |        130 |        130 |       0 |    0 |   63 |      0 |      0 |          0 |
+|   counter                                             |                                 ecg_activity_counter |         89 |         89 |       0 |    0 |  176 |      0 |      0 |          0 |
+|   dbg_hub                                             |                                              dbg_hub |        450 |        426 |      24 |    0 |  741 |      0 |      0 |          0 |
+|     inst                                              |                           dbg_hub_xsdbm_v3_0_5_xsdbm |        450 |        426 |      24 |    0 |  741 |      0 |      0 |          0 |
+|       BSCANID.u_xsdbm_id                              |                        dbg_hub_xsdbm_v3_0_5_xsdbm_id |        450 |        426 |      24 |    0 |  741 |      0 |      0 |          0 |
+|         SWITCH_N_EXT_BSCAN.bscan_switch               |                    dbg_hub_xsdbm_v3_0_5_bscan_switch |        124 |        124 |       0 |    0 |  125 |      0 |      0 |          0 |
+|         CORE_XSDB.UUT_MASTER                          |                       dbg_hub_xsdbm_v3_0_5_icon2xsdb |        274 |        250 |      24 |    0 |  554 |      0 |      0 |          0 |
+|           U_ICON_INTERFACE                            |                              dbg_hub_xsdbm_v3_0_5_if |        163 |        139 |      24 |    0 |  450 |      0 |      0 |          0 |
+|             U_CMD6_WR                                 |                           dbg_hub_xsdbm_v3_0_5_wrreg |         46 |         34 |      12 |    0 |  110 |      0 |      0 |          0 |
+|               U_WR_FIFO                               |                          dbg_hub_xsdbm_v3_0_5_wrfifo |         44 |         32 |      12 |    0 |   90 |      0 |      0 |          0 |
+|                 SUBCORE_FIFO.xsdbm_v3_0_5_wrfifo_inst |                       dbg_hub_fifo_generator_v13_1_5 |         42 |         30 |      12 |    0 |   90 |      0 |      0 |          0 |
+|                   inst_fifo_gen                       |                 dbg_hub_fifo_generator_v13_1_5_synth |         42 |         30 |      12 |    0 |   90 |      0 |      0 |          0 |
+|                     gconvfifo.rf                      |                           dbg_hub_fifo_generator_top |         42 |         30 |      12 |    0 |   90 |      0 |      0 |          0 |
+|                       grf.rf                          |                       dbg_hub_fifo_generator_ramfifo |         42 |         30 |      12 |    0 |   90 |      0 |      0 |          0 |
+|             U_CMD4                                    |         dbg_hub_xsdbm_v3_0_5_ctl_reg__parameterized0 |          9 |          9 |       0 |    0 |   62 |      0 |      0 |          0 |
+|             U_CMD6_RD                                 |                           dbg_hub_xsdbm_v3_0_5_rdreg |         67 |         55 |      12 |    0 |  134 |      0 |      0 |          0 |
+|               U_RD_FIFO                               |                          dbg_hub_xsdbm_v3_0_5_rdfifo |         65 |         53 |      12 |    0 |  114 |      0 |      0 |          0 |
+|                 SUBCORE_FIFO.xsdbm_v3_0_5_rdfifo_inst |       dbg_hub_fifo_generator_v13_1_5__parameterized0 |         47 |         35 |      12 |    0 |  114 |      0 |      0 |          0 |
+|                   inst_fifo_gen                       | dbg_hub_fifo_generator_v13_1_5_synth__parameterized0 |         47 |         35 |      12 |    0 |  114 |      0 |      0 |          0 |
+|                     gconvfifo.rf                      |           dbg_hub_fifo_generator_top__parameterized0 |         47 |         35 |      12 |    0 |  114 |      0 |      0 |          0 |
+|                       grf.rf                          |       dbg_hub_fifo_generator_ramfifo__parameterized0 |         47 |         35 |      12 |    0 |  114 |      0 |      0 |          0 |
+|           U_XSDB_BUS_CONTROLLER                       |                         dbg_hub_xsdbm_v3_0_5_bus_ctl |         71 |         71 |       0 |    0 |   48 |      0 |      0 |          0 |
+|   vio                                                 |                                     ecg_activity_vio |        164 |        164 |       0 |    0 |  605 |      0 |      0 |          0 |
+|     inst                                              |                     ecg_activity_vio_vio_v3_0_27_vio |        164 |        164 |       0 |    0 |  605 |      0 |      0 |          0 |
+|       U_XSDB_SLAVE                                    |                  ecg_activity_vio_xsdbs_v1_0_5_xsdbs |         77 |         77 |       0 |    0 |  161 |      0 |      0 |          0 |
+|       DECODER_INST                                    |                 ecg_activity_vio_vio_v3_0_27_decoder |         36 |         36 |       0 |    0 |   51 |      0 |      0 |          0 |
+|       PROBE_IN_INST                                   |            ecg_activity_vio_vio_v3_0_27_probe_in_one |         38 |         38 |       0 |    0 |  345 |      0 |      0 |          0 |
++-------------------------------------------------------+------------------------------------------------------+------------+------------+---------+------+------+--------+--------+------------+
+* Note: The sum of lower-level cells may be larger than their parent cells total, due to cross-hierarchy LUT combining
+
+

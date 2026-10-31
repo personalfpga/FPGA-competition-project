@@ -1,0 +1,50 @@
+{
+  "baseline": {
+    "luts": 311.0,
+    "registers": 334.0,
+    "bram": 0.0,
+    "dsp": 0.0,
+    "dynamic_w": 0.002,
+    "total_w": 0.104
+  },
+  "fsm_only": {
+    "luts": 387.0,
+    "registers": 363.0,
+    "bram": 0.0,
+    "dsp": 0.0,
+    "dynamic_w": 0.002,
+    "total_w": 0.105
+  },
+  "gated": {
+    "luts": 389.0,
+    "registers": 364.0,
+    "bram": 0.0,
+    "dsp": 0.0,
+    "dynamic_w": 0.003,
+    "total_w": 0.105
+  },
+  "adc": {
+    "luts": 653.0,
+    "registers": 526.0,
+    "bram": 0.0,
+    "dsp": 2.0,
+    "dynamic_w": 0.006,
+    "total_w": 0.108
+  },
+  "mode8": {
+    "luts": 334.0,
+    "registers": 327.0,
+    "bram": 24.0,
+    "dsp": 0.0,
+    "dynamic_w": 0.004,
+    "total_w": 0.108
+  },
+  "mode9": {
+    "luts": 335.0,
+    "registers": 326.0,
+    "bram": 24.0,
+    "dsp": 0.0,
+    "dynamic_w": 0.018,
+    "total_w": 0.122
+  }
+}

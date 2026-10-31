@@ -1,0 +1,249 @@
+{
+  "records": [
+    {
+      "record": "01_2026-10-13_project_dialogue",
+      "tool": "OpenAI Codex",
+      "source": "supplied_repository_archive/ai_records",
+      "source_jsonl_sha256": "7ed2f0e54c5002d6230abf2e4777aa432815226995cddde2a0db7e9b43332b57",
+      "source_md_sha256": "4c06cb071d0255de1d201cfaa8b9f605cbaa943cb0df516b337daea61c6c0787",
+      "visible_messages": 64,
+      "source_snapshot_sha256": "3cb8ffa930472249a19210fb8ec65623c98734b56302c7f1055a9def621b001a",
+      "processing": "Original body preserved except explicit privacy redactions; Chinese permitted only in ai_records",
+      "redactions_in_jsonl": {
+        "email": 0,
+        "phone_like": 0,
+        "windows_absolute_path": 0,
+        "posix_account_path": 0,
+        "account_alias": 0,
+        "affiliation_term": 0,
+        "affiliation_term_english": 0
+      },
+      "redactions_in_md": {
+        "email": 0,
+        "phone_like": 0,
+        "windows_absolute_path": 0,
+        "posix_account_path": 0,
+        "account_alias": 0,
+        "affiliation_term": 0,
+        "affiliation_term_english": 0
+      },
+      "complete_account_history": false
+    },
+    {
+      "record": "02_2026-10-13_project_dialogue",
+      "tool": "OpenAI Codex",
+      "source": "supplied_repository_archive/ai_records",
+      "source_jsonl_sha256": "8a8b86da23247c8447128ec952e65a96fddd5d696e899fd49dbc77a506cc137d",
+      "source_md_sha256": "79d8d228c64306cb490ed7b05ae48dd9f1eadd9c3e7b7a48b6eca36807101b7e",
+      "visible_messages": 6,
+      "source_snapshot_sha256": "59a75396f99424a74aea33cb909a84e9479e71bf00b51bfe547ef2cfbb8cfd3c",
+      "processing": "Original body preserved except explicit privacy redactions; Chinese permitted only in ai_records",
+      "redactions_in_jsonl": {
+        "email": 0,
+        "phone_like": 0,
+        "windows_absolute_path": 0,
+        "posix_account_path": 0,
+        "account_alias": 0,
+        "affiliation_term": 0,
+        "affiliation_term_english": 0
+      },
+      "redactions_in_md": {
+        "email": 0,
+        "phone_like": 0,
+        "windows_absolute_path": 0,
+        "posix_account_path": 0,
+        "account_alias": 0,
+        "affiliation_term": 0,
+        "affiliation_term_english": 0
+      },
+      "complete_account_history": false
+    },
+    {
+      "record": "03_2026-10-17_project_dialogue",
+      "tool": "OpenAI Codex",
+      "source": "supplied_repository_archive/ai_records",
+      "source_jsonl_sha256": "b2210cfaa1fd5511b48557fcffc03a930145d58349263c3edbbbb5a9875505d9",
+      "source_md_sha256": "27bd8535782ec7094e2259febd47e77323fcea4a1e9c49f1206d3c9cbe7a50bf",
+      "visible_messages": 69,
+      "source_snapshot_sha256": "71ec2b03c0608acb6972be69b9bff5c71c5942c002e075f2304dc2971e65e6ae",
+      "processing": "Original body preserved except explicit privacy redactions; Chinese permitted only in ai_records",
+      "redactions_in_jsonl": {
+        "email": 0,
+        "phone_like": 0,
+        "windows_absolute_path": 0,
+        "posix_account_path": 0,
+        "account_alias": 0,
+        "affiliation_term": 1,
+        "affiliation_term_english": 0
+      },
+      "redactions_in_md": {
+        "email": 0,
+        "phone_like": 0,
+        "windows_absolute_path": 0,
+        "posix_account_path": 0,
+        "account_alias": 0,
+        "affiliation_term": 1,
+        "affiliation_term_english": 0
+      },
+      "complete_account_history": false
+    },
+    {
+      "record": "04_2026-10-09_project_dialogue",
+      "tool": "OpenAI Codex",
+      "source": "supplied_repository_archive/ai_records",
+      "source_jsonl_sha256": "8e11a269f72c01bd78a60c5579ff9ce6a4d8a7a40248da2f48839491d5d8604b",
+      "source_md_sha256": "5e293d652ccc87a3988a54d8b4fd87875229449cf0c9b3caae55687c2c9407b4",
+      "visible_messages": 4,
+      "source_snapshot_sha256": "3033d9cb3b22946ea798b4e044a158c189e39e4911528bb20fbd7ed950ef1da8",
+      "processing": "Original body preserved except explicit privacy redactions; Chinese permitted only in ai_records",
+      "redactions_in_jsonl": {
+        "email": 0,
+        "phone_like": 0,
+        "windows_absolute_path": 0,
+        "posix_account_path": 1,
+        "account_alias": 0,
+        "affiliation_term": 0,
+        "affiliation_term_english": 0
+      },
+      "redactions_in_md": {
+        "email": 0,
+        "phone_like": 0,
+        "windows_absolute_path": 0,
+        "posix_account_path": 1,
+        "account_alias": 0,
+        "affiliation_term": 0,
+        "affiliation_term_english": 0
+      },
+      "complete_account_history": false
+    },
+    {
+      "record": "05_2026-10-09_project_dialogue",
+      "tool": "OpenAI Codex",
+      "source": "supplied_repository_archive/ai_records",
+      "source_jsonl_sha256": "2e0b7c95d2814968edaee8ed125fc67228c86749a247f736ca0cbf7bbe01a81c",
+      "source_md_sha256": "d8255b06c53dcf1d0dc4bb0c8860eaeccfb53cb41321db787b00a9ff7f737da0",
+      "visible_messages": 4,
+      "source_snapshot_sha256": "3bae017e6331a414b5b847cc59ede1307a449dd4653c0e85f5637bcc55ededae",
+      "processing": "Original body preserved except explicit privacy redactions; Chinese permitted only in ai_records",
+      "redactions_in_jsonl": {
+        "email": 0,
+        "phone_like": 0,
+        "windows_absolute_path": 0,
+        "posix_account_path": 2,
+        "account_alias": 0,
+        "affiliation_term": 0,
+        "affiliation_term_english": 0
+      },
+      "redactions_in_md": {
+        "email": 0,
+        "phone_like": 0,
+        "windows_absolute_path": 0,
+        "posix_account_path": 2,
+        "account_alias": 0,
+        "affiliation_term": 0,
+        "affiliation_term_english": 0
+      },
+      "complete_account_history": false
+    },
+    {
+      "record": "06_2026-10-09_project_dialogue",
+      "tool": "OpenAI Codex",
+      "source": "supplied_repository_archive/ai_records",
+      "source_jsonl_sha256": "775eee9cc5c50b258efb89176d0d5a2c63c26c6c8bb26ec42798425e6087b890",
+      "source_md_sha256": "a88e835b5a5f240d51102d339d5c3539f48358375fc4e31b3ba2d0ea3c512c34",
+      "visible_messages": 27,
+      "source_snapshot_sha256": "88ee26b91c3427dd14fab6e12fd07ce4aa6914f4e6501426fb4a358627effb60",
+      "processing": "Original body preserved except explicit privacy redactions; Chinese permitted only in ai_records",
+      "redactions_in_jsonl": {
+        "email": 0,
+        "phone_like": 0,
+        "windows_absolute_path": 1,
+        "posix_account_path": 1,
+        "account_alias": 0,
+        "affiliation_term": 0,
+        "affiliation_term_english": 0
+      },
+      "redactions_in_md": {
+        "email": 0,
+        "phone_like": 0,
+        "windows_absolute_path": 1,
+        "posix_account_path": 1,
+        "account_alias": 0,
+        "affiliation_term": 0,
+        "affiliation_term_english": 0
+      },
+      "complete_account_history": false
+    },
+    {
+      "record": "claude_session_main_ecg_low_power",
+      "tool": "Claude (Anthropic)",
+      "source": "user_supplied_llm_log.zip/llm_log",
+      "source_md_sha256": "1a9919088f048ca8371ae1d97246c4b02e789d6d6db37b3341848d0938736b32",
+      "source_declared_messages": 360,
+      "visible_user_assistant_headers": 343,
+      "processing": "Whole supplied Markdown preserved except explicit privacy redactions; existing tool output and attachment omissions remain as supplied",
+      "redactions": {
+        "email": 0,
+        "phone_like": 4,
+        "windows_absolute_path": 118,
+        "posix_account_path": 346,
+        "account_alias": 1,
+        "affiliation_term": 143,
+        "affiliation_term_english": 42
+      },
+      "source_export_has_omissions_and_truncation": true
+    },
+    {
+      "record": "claude_session_vivado_intro_z15",
+      "tool": "Claude (Anthropic)",
+      "source": "user_supplied_llm_log.zip/llm_log",
+      "source_md_sha256": "31a69d7a7c9b39d20c5015041923af706fd49f2fba8257b1f4da3fed1de54aa9",
+      "source_declared_messages": 10,
+      "visible_user_assistant_headers": 10,
+      "processing": "Whole supplied Markdown preserved except explicit privacy redactions; existing tool output and attachment omissions remain as supplied",
+      "redactions": {
+        "email": 0,
+        "phone_like": 0,
+        "windows_absolute_path": 0,
+        "posix_account_path": 0,
+        "account_alias": 0,
+        "affiliation_term": 0,
+        "affiliation_term_english": 0
+      },
+      "source_export_has_omissions_and_truncation": true
+    }
+  ],
+  "codex_visible_message_rows": 174,
+  "claude_visible_user_assistant_headers": 353,
+  "claude_source_declared_messages": 370,
+  "complete_team_history": false,
+  "chinese_policy": "Allowed only within ai_records by explicit user instruction",
+  "scope": "Public selection only; complete provided logs are in competition package",
+  "claude_selected_entries": [
+    {
+      "source_record": "claude_session_main_ecg_low_power",
+      "visible_message_index": 339
+    },
+    {
+      "source_record": "claude_session_main_ecg_low_power",
+      "visible_message_index": 340
+    },
+    {
+      "source_record": "claude_session_main_ecg_low_power",
+      "visible_message_index": 341
+    },
+    {
+      "source_record": "claude_session_main_ecg_low_power",
+      "visible_message_index": 342
+    },
+    {
+      "source_record": "claude_session_vivado_intro_z15",
+      "visible_message_index": 8
+    },
+    {
+      "source_record": "claude_session_vivado_intro_z15",
+      "visible_message_index": 9
+    }
+  ],
+  "codex_selected_messages": 21
+}

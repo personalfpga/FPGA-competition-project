@@ -1,0 +1,2 @@
+CONDITIONER_PASS exhaustive_vectors=20480 gain_cases=5 signed=PASS saturation=PASS warmup=PASS stale=PASS dc_track=PASS
+<PROJECT_ROOT>\sim\conditioner_tb.sv:59: $finish called at 810150000 (1ps)

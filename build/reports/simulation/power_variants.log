@@ -1,0 +1,2 @@
+POWER_VARIANTS_PASS baseline_always_process=PASS FSM_sleep=PASS gate_stop=PASS common_75bpm=PASS
+<PROJECT_ROOT>\sim\power_variants_tb.sv:35: $finish called at 12110100000 (1ps)

@@ -1,0 +1,785 @@
+{
+  "tool": "Vivado 2025.2 build 6299465",
+  "device": "xc7z015clg485-2",
+  "method": "routed conditional vectorless, CE 0/1, no SAIF, no current sensor",
+  "units": "mW",
+  "results": [
+    {
+      "file": "release_power/release_auto_ce0.xpe",
+      "dynamic_mw": 1.27,
+      "static_mw": 100.6098,
+      "total_mw": 101.8798,
+      "junction": "25.5 (C)",
+      "ambient": "25.000000",
+      "confidence": "Low",
+      "rails": {
+        "Vccbram": {
+          "name": "Vccbram",
+          "voltage": "1.000000",
+          "icc": "0.000000",
+          "iccq": "0.000241",
+          "power": "0.000241"
+        },
+        "Vccint": {
+          "name": "Vccint",
+          "voltage": "1.000000",
+          "icc": "0.001270",
+          "iccq": "0.007552",
+          "power": "0.008822"
+        },
+        "Vccaux": {
+          "name": "Vccaux",
+          "voltage": "1.800000",
+          "icc": "0.000000",
+          "iccq": "0.009276",
+          "power": "0.016696"
+        },
+        "Vccpint": {
+          "name": "Vccpint",
+          "voltage": "1.000000",
+          "icc": "0.000000",
+          "iccq": "0.016126",
+          "power": "0.016126"
+        },
+        "Vccpaux": {
+          "name": "Vccpaux",
+          "voltage": "1.800000",
+          "icc": "0.000000",
+          "iccq": "0.010330",
+          "power": "0.018594"
+        },
+        "Vccpll": {
+          "name": "Vccpll",
+          "voltage": "1.800000",
+          "icc": "0.000000",
+          "iccq": "0.003000",
+          "power": "0.005400"
+        },
+        "Vccadc": {
+          "name": "Vccadc",
+          "voltage": "1.800000",
+          "icc": "0.000000",
+          "iccq": "0.020000",
+          "power": "0.036000"
+        }
+      }
+    },
+    {
+      "file": "release_power/release_auto_ce1.xpe",
+      "dynamic_mw": 2.6588,
+      "static_mw": 102.4186,
+      "total_mw": 105.0774,
+      "junction": "25.5 (C)",
+      "ambient": "25.000000",
+      "confidence": "Medium",
+      "rails": {
+        "Vcco18": {
+          "name": "Vcco18",
+          "voltage": "1.800000",
+          "icc": "0.000014",
+          "iccq": "0.001000",
+          "power": "0.001825"
+        },
+        "Vccbram": {
+          "name": "Vccbram",
+          "voltage": "1.000000",
+          "icc": "0.000000",
+          "iccq": "0.000242",
+          "power": "0.000242"
+        },
+        "Vccint": {
+          "name": "Vccint",
+          "voltage": "1.000000",
+          "icc": "0.002630",
+          "iccq": "0.007554",
+          "power": "0.010184"
+        },
+        "Vccaux": {
+          "name": "Vccaux",
+          "voltage": "1.800000",
+          "icc": "0.000002",
+          "iccq": "0.009277",
+          "power": "0.016703"
+        },
+        "Vccpint": {
+          "name": "Vccpint",
+          "voltage": "1.000000",
+          "icc": "0.000000",
+          "iccq": "0.016130",
+          "power": "0.016130"
+        },
+        "Vccpaux": {
+          "name": "Vccpaux",
+          "voltage": "1.800000",
+          "icc": "0.000000",
+          "iccq": "0.010330",
+          "power": "0.018594"
+        },
+        "Vccpll": {
+          "name": "Vccpll",
+          "voltage": "1.800000",
+          "icc": "0.000000",
+          "iccq": "0.003000",
+          "power": "0.005400"
+        },
+        "Vccadc": {
+          "name": "Vccadc",
+          "voltage": "1.800000",
+          "icc": "0.000000",
+          "iccq": "0.020000",
+          "power": "0.036000"
+        }
+      }
+    },
+    {
+      "file": "release_power/release_fixed_ce0.xpe",
+      "dynamic_mw": 1.27,
+      "static_mw": 100.377,
+      "total_mw": 101.647,
+      "junction": "25.0 (C)",
+      "ambient": "24.531141",
+      "confidence": "Low",
+      "rails": {
+        "Vccbram": {
+          "name": "Vccbram",
+          "voltage": "1.000000",
+          "icc": "0.000000",
+          "iccq": "0.000240",
+          "power": "0.000240"
+        },
+        "Vccint": {
+          "name": "Vccint",
+          "voltage": "1.000000",
+          "icc": "0.001270",
+          "iccq": "0.007498",
+          "power": "0.008768"
+        },
+        "Vccaux": {
+          "name": "Vccaux",
+          "voltage": "1.800000",
+          "icc": "0.000000",
+          "iccq": "0.009235",
+          "power": "0.016623"
+        },
+        "Vccpint": {
+          "name": "Vccpint",
+          "voltage": "1.000000",
+          "icc": "0.000000",
+          "iccq": "0.016022",
+          "power": "0.016022"
+        },
+        "Vccpaux": {
+          "name": "Vccpaux",
+          "voltage": "1.800000",
+          "icc": "0.000000",
+          "iccq": "0.010330",
+          "power": "0.018594"
+        },
+        "Vccpll": {
+          "name": "Vccpll",
+          "voltage": "1.800000",
+          "icc": "0.000000",
+          "iccq": "0.003000",
+          "power": "0.005400"
+        },
+        "Vccadc": {
+          "name": "Vccadc",
+          "voltage": "1.800000",
+          "icc": "0.000000",
+          "iccq": "0.020000",
+          "power": "0.036000"
+        }
+      }
+    },
+    {
+      "file": "release_power/release_fixed_ce1.xpe",
+      "dynamic_mw": 2.6588,
+      "static_mw": 102.177,
+      "total_mw": 104.8358,
+      "junction": "25.0 (C)",
+      "ambient": "24.516428",
+      "confidence": "Medium",
+      "rails": {
+        "Vcco18": {
+          "name": "Vcco18",
+          "voltage": "1.800000",
+          "icc": "0.000014",
+          "iccq": "0.001000",
+          "power": "0.001825"
+        },
+        "Vccbram": {
+          "name": "Vccbram",
+          "voltage": "1.000000",
+          "icc": "0.000000",
+          "iccq": "0.000240",
+          "power": "0.000240"
+        },
+        "Vccint": {
+          "name": "Vccint",
+          "voltage": "1.000000",
+          "icc": "0.002630",
+          "iccq": "0.007498",
+          "power": "0.010128"
+        },
+        "Vccaux": {
+          "name": "Vccaux",
+          "voltage": "1.800000",
+          "icc": "0.000002",
+          "iccq": "0.009235",
+          "power": "0.016628"
+        },
+        "Vccpint": {
+          "name": "Vccpint",
+          "voltage": "1.000000",
+          "icc": "0.000000",
+          "iccq": "0.016022",
+          "power": "0.016022"
+        },
+        "Vccpaux": {
+          "name": "Vccpaux",
+          "voltage": "1.800000",
+          "icc": "0.000000",
+          "iccq": "0.010330",
+          "power": "0.018594"
+        },
+        "Vccpll": {
+          "name": "Vccpll",
+          "voltage": "1.800000",
+          "icc": "0.000000",
+          "iccq": "0.003000",
+          "power": "0.005400"
+        },
+        "Vccadc": {
+          "name": "Vccadc",
+          "voltage": "1.800000",
+          "icc": "0.000000",
+          "iccq": "0.020000",
+          "power": "0.036000"
+        }
+      }
+    },
+    {
+      "file": "release_power/release_fixed_io_ce0.xpe",
+      "dynamic_mw": 1.27,
+      "static_mw": 102.177,
+      "total_mw": 103.447,
+      "junction": "25.0 (C)",
+      "ambient": "24.522839",
+      "confidence": "Low",
+      "rails": {
+        "Vcco18": {
+          "name": "Vcco18",
+          "voltage": "1.800000",
+          "icc": "0.000000",
+          "iccq": "0.001000",
+          "power": "0.001800"
+        },
+        "Vccbram": {
+          "name": "Vccbram",
+          "voltage": "1.000000",
+          "icc": "0.000000",
+          "iccq": "0.000240",
+          "power": "0.000240"
+        },
+        "Vccint": {
+          "name": "Vccint",
+          "voltage": "1.000000",
+          "icc": "0.001270",
+          "iccq": "0.007498",
+          "power": "0.008768"
+        },
+        "Vccaux": {
+          "name": "Vccaux",
+          "voltage": "1.800000",
+          "icc": "0.000000",
+          "iccq": "0.009235",
+          "power": "0.016623"
+        },
+        "Vccpint": {
+          "name": "Vccpint",
+          "voltage": "1.000000",
+          "icc": "0.000000",
+          "iccq": "0.016022",
+          "power": "0.016022"
+        },
+        "Vccpaux": {
+          "name": "Vccpaux",
+          "voltage": "1.800000",
+          "icc": "0.000000",
+          "iccq": "0.010330",
+          "power": "0.018594"
+        },
+        "Vccpll": {
+          "name": "Vccpll",
+          "voltage": "1.800000",
+          "icc": "0.000000",
+          "iccq": "0.003000",
+          "power": "0.005400"
+        },
+        "Vccadc": {
+          "name": "Vccadc",
+          "voltage": "1.800000",
+          "icc": "0.000000",
+          "iccq": "0.020000",
+          "power": "0.036000"
+        }
+      }
+    },
+    {
+      "file": "release_power/release_fixed_io_ce1.xpe",
+      "dynamic_mw": 2.63,
+      "static_mw": 102.177,
+      "total_mw": 104.807,
+      "junction": "25.0 (C)",
+      "ambient": "24.516563",
+      "confidence": "Medium",
+      "rails": {
+        "Vcco18": {
+          "name": "Vcco18",
+          "voltage": "1.800000",
+          "icc": "0.000000",
+          "iccq": "0.001000",
+          "power": "0.001800"
+        },
+        "Vccbram": {
+          "name": "Vccbram",
+          "voltage": "1.000000",
+          "icc": "0.000000",
+          "iccq": "0.000240",
+          "power": "0.000240"
+        },
+        "Vccint": {
+          "name": "Vccint",
+          "voltage": "1.000000",
+          "icc": "0.002630",
+          "iccq": "0.007498",
+          "power": "0.010128"
+        },
+        "Vccaux": {
+          "name": "Vccaux",
+          "voltage": "1.800000",
+          "icc": "0.000000",
+          "iccq": "0.009235",
+          "power": "0.016623"
+        },
+        "Vccpint": {
+          "name": "Vccpint",
+          "voltage": "1.000000",
+          "icc": "0.000000",
+          "iccq": "0.016022",
+          "power": "0.016022"
+        },
+        "Vccpaux": {
+          "name": "Vccpaux",
+          "voltage": "1.800000",
+          "icc": "0.000000",
+          "iccq": "0.010330",
+          "power": "0.018594"
+        },
+        "Vccpll": {
+          "name": "Vccpll",
+          "voltage": "1.800000",
+          "icc": "0.000000",
+          "iccq": "0.003000",
+          "power": "0.005400"
+        },
+        "Vccadc": {
+          "name": "Vccadc",
+          "voltage": "1.800000",
+          "icc": "0.000000",
+          "iccq": "0.020000",
+          "power": "0.036000"
+        }
+      }
+    },
+    {
+      "file": "demo_power_diagnostic/demo_auto_ce0.xpe",
+      "dynamic_mw": 26.996,
+      "static_mw": 101.9908,
+      "total_mw": 128.9868,
+      "junction": "25.6 (C)",
+      "ambient": "25.000000",
+      "confidence": "Medium",
+      "rails": {
+        "Vccbram": {
+          "name": "Vccbram",
+          "voltage": "1.000000",
+          "icc": "0.001919",
+          "iccq": "0.001050",
+          "power": "0.002969"
+        },
+        "Vccint": {
+          "name": "Vccint",
+          "voltage": "1.000000",
+          "icc": "0.025077",
+          "iccq": "0.008012",
+          "power": "0.033089"
+        },
+        "Vccaux": {
+          "name": "Vccaux",
+          "voltage": "1.800000",
+          "icc": "0.000000",
+          "iccq": "0.009301",
+          "power": "0.016742"
+        },
+        "Vccpint": {
+          "name": "Vccpint",
+          "voltage": "1.000000",
+          "icc": "0.000000",
+          "iccq": "0.016193",
+          "power": "0.016193"
+        },
+        "Vccpaux": {
+          "name": "Vccpaux",
+          "voltage": "1.800000",
+          "icc": "0.000000",
+          "iccq": "0.010330",
+          "power": "0.018594"
+        },
+        "Vccpll": {
+          "name": "Vccpll",
+          "voltage": "1.800000",
+          "icc": "0.000000",
+          "iccq": "0.003000",
+          "power": "0.005400"
+        },
+        "Vccadc": {
+          "name": "Vccadc",
+          "voltage": "1.800000",
+          "icc": "0.000000",
+          "iccq": "0.020000",
+          "power": "0.036000"
+        }
+      }
+    },
+    {
+      "file": "demo_power_diagnostic/demo_auto_ce1.xpe",
+      "dynamic_mw": 28.5778,
+      "static_mw": 103.8004,
+      "total_mw": 132.3782,
+      "junction": "25.6 (C)",
+      "ambient": "25.000000",
+      "confidence": "Medium",
+      "rails": {
+        "Vcco18": {
+          "name": "Vcco18",
+          "voltage": "1.800000",
+          "icc": "0.000026",
+          "iccq": "0.001000",
+          "power": "0.001847"
+        },
+        "Vccbram": {
+          "name": "Vccbram",
+          "voltage": "1.000000",
+          "icc": "0.001919",
+          "iccq": "0.001050",
+          "power": "0.002969"
+        },
+        "Vccint": {
+          "name": "Vccint",
+          "voltage": "1.000000",
+          "icc": "0.026603",
+          "iccq": "0.008014",
+          "power": "0.034617"
+        },
+        "Vccaux": {
+          "name": "Vccaux",
+          "voltage": "1.800000",
+          "icc": "0.000005",
+          "iccq": "0.009303",
+          "power": "0.016753"
+        },
+        "Vccpint": {
+          "name": "Vccpint",
+          "voltage": "1.000000",
+          "icc": "0.000000",
+          "iccq": "0.016197",
+          "power": "0.016197"
+        },
+        "Vccpaux": {
+          "name": "Vccpaux",
+          "voltage": "1.800000",
+          "icc": "0.000000",
+          "iccq": "0.010330",
+          "power": "0.018594"
+        },
+        "Vccpll": {
+          "name": "Vccpll",
+          "voltage": "1.800000",
+          "icc": "0.000000",
+          "iccq": "0.003000",
+          "power": "0.005400"
+        },
+        "Vccadc": {
+          "name": "Vccadc",
+          "voltage": "1.800000",
+          "icc": "0.000000",
+          "iccq": "0.020000",
+          "power": "0.036000"
+        }
+      }
+    },
+    {
+      "file": "demo_power_diagnostic/demo_fixed_ce0.xpe",
+      "dynamic_mw": 26.996,
+      "static_mw": 101.598,
+      "total_mw": 128.594,
+      "junction": "25.0 (C)",
+      "ambient": "24.406843",
+      "confidence": "Medium",
+      "rails": {
+        "Vccbram": {
+          "name": "Vccbram",
+          "voltage": "1.000000",
+          "icc": "0.001919",
+          "iccq": "0.001041",
+          "power": "0.002960"
+        },
+        "Vccint": {
+          "name": "Vccint",
+          "voltage": "1.000000",
+          "icc": "0.025077",
+          "iccq": "0.007918",
+          "power": "0.032996"
+        },
+        "Vccaux": {
+          "name": "Vccaux",
+          "voltage": "1.800000",
+          "icc": "0.000000",
+          "iccq": "0.009235",
+          "power": "0.016623"
+        },
+        "Vccpint": {
+          "name": "Vccpint",
+          "voltage": "1.000000",
+          "icc": "0.000000",
+          "iccq": "0.016022",
+          "power": "0.016022"
+        },
+        "Vccpaux": {
+          "name": "Vccpaux",
+          "voltage": "1.800000",
+          "icc": "0.000000",
+          "iccq": "0.010330",
+          "power": "0.018594"
+        },
+        "Vccpll": {
+          "name": "Vccpll",
+          "voltage": "1.800000",
+          "icc": "0.000000",
+          "iccq": "0.003000",
+          "power": "0.005400"
+        },
+        "Vccadc": {
+          "name": "Vccadc",
+          "voltage": "1.800000",
+          "icc": "0.000000",
+          "iccq": "0.020000",
+          "power": "0.036000"
+        }
+      }
+    },
+    {
+      "file": "demo_power_diagnostic/demo_fixed_ce1.xpe",
+      "dynamic_mw": 28.5778,
+      "static_mw": 103.398,
+      "total_mw": 131.9758,
+      "junction": "25.0 (C)",
+      "ambient": "24.391245",
+      "confidence": "Medium",
+      "rails": {
+        "Vcco18": {
+          "name": "Vcco18",
+          "voltage": "1.800000",
+          "icc": "0.000026",
+          "iccq": "0.001000",
+          "power": "0.001847"
+        },
+        "Vccbram": {
+          "name": "Vccbram",
+          "voltage": "1.000000",
+          "icc": "0.001919",
+          "iccq": "0.001041",
+          "power": "0.002960"
+        },
+        "Vccint": {
+          "name": "Vccint",
+          "voltage": "1.000000",
+          "icc": "0.026603",
+          "iccq": "0.007918",
+          "power": "0.034522"
+        },
+        "Vccaux": {
+          "name": "Vccaux",
+          "voltage": "1.800000",
+          "icc": "0.000005",
+          "iccq": "0.009235",
+          "power": "0.016631"
+        },
+        "Vccpint": {
+          "name": "Vccpint",
+          "voltage": "1.000000",
+          "icc": "0.000000",
+          "iccq": "0.016022",
+          "power": "0.016022"
+        },
+        "Vccpaux": {
+          "name": "Vccpaux",
+          "voltage": "1.800000",
+          "icc": "0.000000",
+          "iccq": "0.010330",
+          "power": "0.018594"
+        },
+        "Vccpll": {
+          "name": "Vccpll",
+          "voltage": "1.800000",
+          "icc": "0.000000",
+          "iccq": "0.003000",
+          "power": "0.005400"
+        },
+        "Vccadc": {
+          "name": "Vccadc",
+          "voltage": "1.800000",
+          "icc": "0.000000",
+          "iccq": "0.020000",
+          "power": "0.036000"
+        }
+      }
+    },
+    {
+      "file": "demo_power_diagnostic/demo_fixed_io_ce0.xpe",
+      "dynamic_mw": 26.996,
+      "static_mw": 103.398,
+      "total_mw": 130.394,
+      "junction": "25.0 (C)",
+      "ambient": "24.398540",
+      "confidence": "Medium",
+      "rails": {
+        "Vcco18": {
+          "name": "Vcco18",
+          "voltage": "1.800000",
+          "icc": "0.000000",
+          "iccq": "0.001000",
+          "power": "0.001800"
+        },
+        "Vccbram": {
+          "name": "Vccbram",
+          "voltage": "1.000000",
+          "icc": "0.001919",
+          "iccq": "0.001041",
+          "power": "0.002960"
+        },
+        "Vccint": {
+          "name": "Vccint",
+          "voltage": "1.000000",
+          "icc": "0.025077",
+          "iccq": "0.007918",
+          "power": "0.032996"
+        },
+        "Vccaux": {
+          "name": "Vccaux",
+          "voltage": "1.800000",
+          "icc": "0.000000",
+          "iccq": "0.009235",
+          "power": "0.016623"
+        },
+        "Vccpint": {
+          "name": "Vccpint",
+          "voltage": "1.000000",
+          "icc": "0.000000",
+          "iccq": "0.016022",
+          "power": "0.016022"
+        },
+        "Vccpaux": {
+          "name": "Vccpaux",
+          "voltage": "1.800000",
+          "icc": "0.000000",
+          "iccq": "0.010330",
+          "power": "0.018594"
+        },
+        "Vccpll": {
+          "name": "Vccpll",
+          "voltage": "1.800000",
+          "icc": "0.000000",
+          "iccq": "0.003000",
+          "power": "0.005400"
+        },
+        "Vccadc": {
+          "name": "Vccadc",
+          "voltage": "1.800000",
+          "icc": "0.000000",
+          "iccq": "0.020000",
+          "power": "0.036000"
+        }
+      }
+    },
+    {
+      "file": "demo_power_diagnostic/demo_fixed_io_ce1.xpe",
+      "dynamic_mw": 28.522,
+      "static_mw": 103.398,
+      "total_mw": 131.92,
+      "junction": "25.0 (C)",
+      "ambient": "24.391500",
+      "confidence": "Medium",
+      "rails": {
+        "Vcco18": {
+          "name": "Vcco18",
+          "voltage": "1.800000",
+          "icc": "0.000000",
+          "iccq": "0.001000",
+          "power": "0.001800"
+        },
+        "Vccbram": {
+          "name": "Vccbram",
+          "voltage": "1.000000",
+          "icc": "0.001919",
+          "iccq": "0.001041",
+          "power": "0.002960"
+        },
+        "Vccint": {
+          "name": "Vccint",
+          "voltage": "1.000000",
+          "icc": "0.026603",
+          "iccq": "0.007918",
+          "power": "0.034522"
+        },
+        "Vccaux": {
+          "name": "Vccaux",
+          "voltage": "1.800000",
+          "icc": "0.000000",
+          "iccq": "0.009235",
+          "power": "0.016623"
+        },
+        "Vccpint": {
+          "name": "Vccpint",
+          "voltage": "1.000000",
+          "icc": "0.000000",
+          "iccq": "0.016022",
+          "power": "0.016022"
+        },
+        "Vccpaux": {
+          "name": "Vccpaux",
+          "voltage": "1.800000",
+          "icc": "0.000000",
+          "iccq": "0.010330",
+          "power": "0.018594"
+        },
+        "Vccpll": {
+          "name": "Vccpll",
+          "voltage": "1.800000",
+          "icc": "0.000000",
+          "iccq": "0.003000",
+          "power": "0.005400"
+        },
+        "Vccadc": {
+          "name": "Vccadc",
+          "voltage": "1.800000",
+          "icc": "0.000000",
+          "iccq": "0.020000",
+          "power": "0.036000"
+        }
+      }
+    }
+  ],
+  "old_demo_static_difference_is_not_a_savings_claim": true
+}
