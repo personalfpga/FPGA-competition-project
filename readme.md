@@ -74,6 +74,21 @@ The paired XSim test reproduces 2,280,000 main-clock edges versus 1,850,604 gate
 
 Native JPG captures and baseline_10s.mp4, gated_10s.mp4 and comparison_10s.mp4 are in report/waveforms/. Each clip is 10 seconds, H.264, 1080p at 30 fps. When reproducing these waveforms in a video, figure or document, retain the caption: **Accelerated functional simulation (100 kHz); hardware release clock: 50 MHz.**
 
+## Known limitation after an abnormal rate
+
+The heart-rate register updates only when a new valid BPM result is available.
+If the input becomes flat after an abnormal rate and no further valid R peaks
+are detected, the last abnormal heart-rate value can remain held. The design
+then stays in ALERT: the no-R-peak sleep timer is cleared in ALERT, the LED
+remains on, and the processing clock continues to run. Automatic sleep after
+signal loss is therefore limited to the NORMAL-state path in this version.
+
+The archived regression and the reported mode 7 activity-reduction interval
+do not establish behavior for abnormal-rate-to-flat input. The 18.28% result
+applies to its stated captured interval, not to all possible input sequences.
+A future revision should define and test signal-loss handling in ALERT,
+including a no-R-peak timeout and explicit treatment of a stale BPM value.
+
 ## AI collaboration and licenses
 
 The public selections in ai_records/ include prompts, model responses and correction examples from the supplied Codex and Claude records. Source notes and redaction details are in ai_records/readme.md. Historical model responses are not validation evidence; use the source, tests and reports to assess technical claims.

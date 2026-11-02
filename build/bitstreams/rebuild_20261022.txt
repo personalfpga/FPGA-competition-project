@@ -15,3 +15,12 @@ New build evidence and SHA256: reports/rebuild_20261022/
 Older audit documents and reports describe their dated snapshots.
 The embedded activity_demo/release/ directory is the preserved original R2 source snapshot.
 Its RTL matches the current release RTL; its historical bitstreams were not rewritten.
+
+Public package scope note
+The directory references above describe the historical rebuild workspace.
+build/bit_backup_20261022/, reports/rebuild_20261022/ and activity_demo/
+are not included at those paths in this public package. They are not required
+by the reproduction commands in the root readme.md. Use the packaged
+build/reports/, build/demo_reports/ and release_manifest.json for the included
+evidence and file identities; the historical workspace paths are not current
+package download locations.
