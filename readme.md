@@ -89,6 +89,35 @@ applies to its stated captured interval, not to all possible input sequences.
 A future revision should define and test signal-loss handling in ALERT,
 including a no-R-peak timeout and explicit treatment of a stale BPM value.
 
+### Optional ADC reset-release limitation
+
+For USE_ADC=1, ecg_top.v combines the reset synchronizer output with the
+por_count >= POR_CYCLES comparison to form reset_n. The comparison is
+combinational and feeds reset inputs; this release does not provide a
+dedicated registered, synchronized release stage after that comparison.
+RTL functional tests and archived board demonstrations do not establish
+glitch-free reset release across implementation delays and operating corners.
+A future ADC revision should register or synchronize this release condition
+and verify reset timing. The built-in and MIT-BIH demonstrations use USE_ADC=0.
+
+### Power-estimate interpretation
+
+The archived estimates do not use SAIF switching-activity annotation. The
+baseline, gated and mode 9 report values are not evidence of measured power
+savings or a workload-averaged clock-gating benefit. In particular, mode 9
+replay and the mode 7 baseline have different input and memory configurations.
+The approximately 1.36 mW claim refers only to release_fixed_io_ce1 minus
+release_fixed_io_ce0 under the matched conditions recorded in
+build/demo_reports/power_comparison.json. It is a conditional dynamic-power
+endpoint difference, not measured or average whole-board savings.
+
+### Python command scope
+
+Use the documented command `python src/scripts/run_tests.py` with Icarus
+Verilog and numpy installed. The script imports the adjacent privacy.py module
+and is not configured for Python isolated mode (`python -I`). A missing
+adjacent-module import in isolated mode is not an RTL regression result.
+
 ## AI collaboration and licenses
 
 The public selections in ai_records/ include prompts, model responses and correction examples from the supplied Codex and Claude records. Source notes and redaction details are in ai_records/readme.md. Historical model responses are not validation evidence; use the source, tests and reports to assess technical claims.
